@@ -1,0 +1,14 @@
+# Build outputs
+web/student.js
+web/student.wasm
+web/student.js.map
+
+# IDE files
+*.swp
+*.swo
+*.swn
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db

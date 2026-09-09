@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Tags & Validation - Complete Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f4f6f8;
+        }
+        section {
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea, button {
+            margin-top: 5px;
+            padding: 6px;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>HTML Tags, Inputs & Validation Attributes (Single File)</h1>
+
+<!-- ================= FORM TAG ================= -->
+<section>
+    <h2>&lt;form&gt; Tag</h2>
+    <p>Used to collect user input and send it to server.</p>
+
+    <!-- novalidate disables HTML validation -->
+    <form action="#" method="post" novalidate>
+
+        <!-- ================= INPUT TYPES ================= -->
+
+        <h2>Input Types</h2>
+
+        <!-- Text -->
+        <label>Text Input (name)</label>
+        <input type="text" placeholder="Enter name">
+
+        <!-- Email -->
+        <label>Email (gmail)</label>
+        <input type="email" placeholder="example@gmail.com">
+        <!-- Validates email format automatically -->
+
+        <!-- Password -->
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+        <!-- Hides characters -->
+
+        <!-- Date -->
+        <label>Date</label>
+        <input type="date">
+        <!-- Shows date picker -->
+
+        <!-- Time -->
+        <label>Time</label>
+        <input type="time">
+        <!-- Time picker -->
+
+        <!-- Number -->
+        <label>Number</label>
+        <input type="number" min="1" max="100">
+
+        <!-- Radio Button -->
+        <label>Radio Button (Select one)</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <!-- Only one can be selected -->
+
+        <!-- Checkbox -->
+        <label>Checkbox (Multiple allowed)</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JS
+
+        <!-- Range -->
+        <label>Range (Slider)</label>
+        <input type="range" min="0" max="100">
+        <!-- Used for volume, brightness -->
+
+        <!-- Hidden -->
+        <input type="hidden" value="hiddenData">
+        <!-- Data sent but not visible -->
+
+        <!-- File -->
+        <label>File Upload</label>
+        <input type="file">
+
+        <!-- Color -->
+        <label>Color Picker</label>
+        <input type="color">
+
+        <!-- Submit -->
+        <br><br>
+        <input type="submit" value="Submit Form">
+
+    </form>
+</section>
+
+<!-- ================= VALIDATION ATTRIBUTES ================= -->
+<section>
+    <h2>Validation Attributes</h2>
+
+    <form>
+
+        <!-- required -->
+        <label>Required Field</label>
+        <input type="text" required>
+        <!-- User must fill -->
+
+        <!-- disabled -->
+        <label>Disabled</label>
+        <input type="text" disabled value="Can't edit">
+        <!-- Not editable & not sent -->
+
+        <!-- readonly -->
+        <label>Readonly</label>
+        <input type="text" readonly value="Only readable">
+        <!-- Sent to server but cannot edit -->
+
+        <!-- placeholder -->
+        <label>Placeholder</label>
+        <input type="text" placeholder="Hint text">
+
+        <!-- pattern -->
+        <label>Pattern (Only numbers)</label>
+        <input type="text" pattern="[0-9]{5}">
+        <!-- Regex based validation -->
+
+        <!-- minlength -->
+        <label>Min Length (5)</label>
+        <input type="text" minlength="5">
+
+        <!-- maxlength -->
+        <label>Max Length (10)</label>
+        <input type="text" maxlength="10">
+
+        <!-- autofocus -->
+        <label>Autofocus</label>
+        <input type="text" autofocus>
+        <!-- Cursor automatically here -->
+
+        <!-- autocomplete -->
+        <label>Autocomplete OFF</label>
+        <input type="text" autocomplete="off">
+
+    </form>
+</section>
+
+<!-- ================= OTHER FORM TAGS ================= -->
+<section>
+    <h2>Other Important Tags</h2>
+
+    <!-- textarea -->
+    <label>&lt;textarea&gt;</label>
+    <textarea rows="4" cols="30">Multi-line text</textarea>
+
+    <!-- select -->
+    <label>&lt;select&gt; Dropdown</label>
+    <select>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+    </select>
+
+    <!-- button -->
+    <br><br>
+    <button type="button">Normal Button</button>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+
+</section>
+
+<!-- ================= DIFFERENCES ================= -->
+<section>
+    <h2>Important Differences</h2>
+
+    <p><b>Radio vs Checkbox</b><br>
+    Radio → Select only one<br>
+    Checkbox → Select multiple</p>
+
+    <p><b>Disabled vs Readonly</b><br>
+    Disabled → Not sent to server<br>
+    Readonly → Sent to server</p>
+
+    <p><b>Email vs Text</b><br>
+    Email → Validates format<br>
+    Text → No validation</p>
+
+    <p><b>Password vs Text</b><br>
+    Password → Hidden characters</p>
+
+</section>
+<!-- Adding audio and video tags -->
+<section>
+    <h2>Audio & Video Tags</h2>
+
+    <!-- Audio Tag -->
+    <label>&lt;audio&gt; Tag</label><br>
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <br><br>
+
+    <!-- Video Tag -->
+    <label>&lt;video&gt; Tag</label><br>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>    
+
+    <br><br>
+
+    <!-- YouTube Video -->
+    <label>YouTube Video</label><br>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/i52TYO13Nyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!-- <iframe width="320" height="240" src="https://youtu.be/_UIQYCzqcwQ?si=pketwywa4tN07fsZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://youtu.be/grPJnHl2WgA?si=3AjO9KYJKY34Yiyt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://youtu.be/6pT7ekYNStY?si=wizk2AtqoZWu04RG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/MMjoPdWt_m8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/MMjoPdWt_m8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/KBLWBAIZCrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/oCutWyubBnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="320" height="240" src="https://www.youtube.com/embed/O5HQ1sZseKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</section>
+
+
+</body>
+</html>
