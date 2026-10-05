@@ -100,3 +100,7 @@ new_path,base_source,contributed_from,what_was_added
 12-Greedy-and-Intervals/README.md,NA,NA,Created topic hub README for Greedy and Intervals
 12-Greedy-and-Intervals/concepts/01-greedy-choice-property-and-proofs.md,DSA_server-main/DSA-MasterCourse/16_Greedy_Algorithms/16_notes.md,NA,"Preserved greedy choice property, exchange argument proof strategy, and problems"
 12-Greedy-and-Intervals/code/001-activity-selection/solution.cpp,NA,NA,Created activity selection greedy implementation
+13-Graphs/README.md,NA,NA,Created topic hub README for Graphs
+13-Graphs/concepts/01-graph-representations-and-traversals.md,DSA_server-main/DSA-MasterCourse/14_Graphs/14_notes.md,NA,"Preserved graph representation, BFS/DFS, cycle detection, and topological sort"
+13-Graphs/concepts/02-shortest-paths-and-advanced-graphs.md,DSA_server-main/DSA-MasterCourse/20_Advanced_Graphs/20_notes.md,NA,"Preserved shortest path algorithms: Dijkstra, Bellman-Ford, and Floyd-Warshall"
+13-Graphs/code/001-graph-traversals/solution.cpp,NA,NA,Created BFS and DFS graph traversals implementation
