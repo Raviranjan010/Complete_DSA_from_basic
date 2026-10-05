@@ -71,3 +71,13 @@ new_path,base_source,contributed_from,what_was_added
 06-Hashing/README.md,NA,NA,Created topic hub README for Hashing
 06-Hashing/concepts/01-hashing-fundamentals-and-collision-handling.md,DSA_server-main/DSA-MasterCourse/09_Hashing/09_notes.md,Summer_pep_DSA-main/07-Hashing.md,"Merged hashing theory, hash functions, collision strategies, and STL maps"
 06-Hashing/code/001-hashmap-basics/solution.cpp,NA,NA,Created hash map and set foundational solution code
+07-Recursion-and-Backtracking/README.md,NA,NA,Created topic hub README for Recursion and Backtracking
+07-Recursion-and-Backtracking/concepts/01-recursion-foundations-and-call-stack.md,DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/04_notes.md,Summer_pep_DSA-main/06-Recursion.md,"Consolidated recursion foundations, call stack diagrams, and base case rules"
+07-Recursion-and-Backtracking/concepts/02-divide-and-conquer-principles.md,DSA_server-main/DSA-MasterCourse/17_Divide_and_Conquer/17_notes.md,None,"Divide and conquer strategy, recurrence solving, and master theorem preview"
+07-Recursion-and-Backtracking/concepts/03-recursion-and-backtracking-mcqs.md,DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/04_mcqs.md,None,Self-check MCQs for recursion and backtracking
+07-Recursion-and-Backtracking/code/001-factorial-recursion/solution.cpp,dsa-main/1_factorial.cpp,None,Factorial recursive solution
+07-Recursion-and-Backtracking/code/002-array-recursion/solution.cpp,dsa-main/7_array_recursive.cpp,dsa-main/8_max_ele_inArray_recursive.cpp; dsa-main/9_sum_array_ele_usingRecursion.cpp,"Recursive array printing, maximum element, and array sum"
+07-Recursion-and-Backtracking/code/003-math-recursion/solution.cpp,dsa-main/4_recursive_sum_of_Digitts.cpp,dsa-main/13_k_Multiple_of_n.cpp; dsa-main/14_sum_of_natural_num_with_alternateign.cpp,"Recursive sum of digits, k multiples, and alternate sum of natural numbers"
+07-Recursion-and-Backtracking/code/004-frog-jump/solution.cpp,dsa-main/17_Frog_jump.cpp,None,Frog jump classic recursion and path minimization
+07-Recursion-and-Backtracking/code/005-string-recursion/solution.cpp,dsa-main/10_remove_Occurence(a).cpp,None,Recursive string element removal
+07-Recursion-and-Backtracking/code/006-backtracking-basics/solution.cpp,DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/code/backtracking.cpp,DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/code/basics.cpp,"Standard backtracking: permutations, subsets, and N-Queens"
