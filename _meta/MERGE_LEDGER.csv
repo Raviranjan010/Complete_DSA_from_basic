@@ -111,3 +111,49 @@ new_path,base_source,contributed_from,what_was_added
 15-Bit-Manipulation/README.md,NA,NA,Created topic hub README for Bit Manipulation
 15-Bit-Manipulation/concepts/01-bitwise-operators-and-binary-tricks.md,DSA_server-main/DSA-MasterCourse/18_Bit_Manipulation/18_notes.md,NA,"Preserved bitwise operations, bitmasking, and single number patterns"
 15-Bit-Manipulation/code/001-bitwise-tricks/solution.cpp,NA,NA,Created bitwise tricks and count set bits implementation
+16-Strings-Advanced/README.md,NA,NA,Created topic hub README for Strings Advanced
+16-Strings-Advanced/code/001-pattern-matching/solution.cpp,DSA_server-main/DSA-MasterCourse/03_Strings/code/pattern_matching.cpp,NA,Migrated string pattern matching algorithms (naive & KMP preview)
+16-Strings-Advanced/concepts/01-pattern-matching-kmp.md,NA,NA,Created KMP pattern matching concept guide
+17-Advanced-Data-Structures/README.md,NA,NA,Created topic hub README for Advanced Data Structures
+17-Advanced-Data-Structures/concepts/01-trie-prefix-tree-guide.md,DSA_server-main/DSA-MasterCourse/13_Tries/13_notes.md,NA,Preserved Trie prefix tree notes and operations
+17-Advanced-Data-Structures/concepts/02-segment-tree-and-fenwick-tree.md,DSA_server-main/DSA-MasterCourse/19_Segment_Tree_and_BIT/19_notes.md,NA,Preserved Segment Tree and Binary Indexed Tree notes
+17-Advanced-Data-Structures/code/001-trie-implementation/solution.cpp,NA,NA,"Created complete Trie insertion, search, and prefix matching solution"
+18-Advanced-Algorithms/README.md,NA,NA,Created topic hub README for Advanced Algorithms
+18-Advanced-Algorithms/concepts/01-competitive-programming-patterns.md,DSA_server-main/DSA-MasterCourse/22_Competitive_Programming_Extras/22_notes.md,NA,Preserved competitive programming extras and advanced tricks
+19-Interview-Preparation/README.md,NA,NA,Created topic hub README for Interview Preparation
+19-Interview-Preparation/company-questions/adobe.md,DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Adobe.md,NA,Preserved Adobe interview question collection
+19-Interview-Preparation/company-questions/amazon.md,DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Amazon.md,NA,Preserved Amazon interview question collection
+19-Interview-Preparation/company-questions/flipkart.md,DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Flipkart.md,NA,Preserved Flipkart interview question collection
+19-Interview-Preparation/company-questions/google.md,DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Google.md,NA,Preserved Google interview question collection
+19-Interview-Preparation/company-questions/meta.md,DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Meta.md,NA,Preserved Meta interview question collection
+19-Interview-Preparation/company-questions/microsoft.md,DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Microsoft.md,NA,Preserved Microsoft interview question collection
+19-Interview-Preparation/company-questions/tcs_infosys_wipro.md,DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/TCS_Infosys_Wipro.md,NA,Preserved TCS_Infosys_Wipro interview question collection
+19-Interview-Preparation/company-questions/arrays-interview-handbook.md,DSA_server-main/DSA-MasterCourse/02_Arrays/11_Interview_Prep/Arrays_Interview.md,NA,Preserved array interview handbook
+19-Interview-Preparation/mock-assessments/daily-practice-problems.md,Summer_pep_DSA-main/Daily problems/Practice-Problems.md,NA,Preserved daily practice problem sets
+20-Cheatsheets/complexity-cheatsheet.md,CHEATSHEETS/complexity-cheatsheet.md,NA,Preserved complexity-cheatsheet.md for Phase 5 content expansion
+20-Cheatsheets/cpp-stl-cheatsheet.md,CHEATSHEETS/cpp-stl-cheatsheet.md,NA,Preserved cpp-stl-cheatsheet.md for Phase 5 content expansion
+20-Cheatsheets/dp-patterns-cheatsheet.md,CHEATSHEETS/dp-patterns-cheatsheet.md,NA,Preserved dp-patterns-cheatsheet.md for Phase 5 content expansion
+20-Cheatsheets/graph-algorithms-cheatsheet.md,CHEATSHEETS/graph-algorithms-cheatsheet.md,NA,Preserved graph-algorithms-cheatsheet.md for Phase 5 content expansion
+20-Cheatsheets/interview-last-minute-revision.md,CHEATSHEETS/interview-last-minute-revision.md,NA,Preserved interview-last-minute-revision.md for Phase 5 content expansion
+20-Cheatsheets/recursion-cheatsheet.md,CHEATSHEETS/recursion-cheatsheet.md,NA,Preserved recursion-cheatsheet.md for Phase 5 content expansion
+20-Cheatsheets/sorting-cheatsheet.md,CHEATSHEETS/sorting-cheatsheet.md,NA,Preserved sorting-cheatsheet.md for Phase 5 content expansion
+20-Cheatsheets/README.md,NA,NA,Created cheatsheets hub README
+_extras/wasm-student-record/build.bat,dsa-main/build.bat,NA,Categorized Emscripten WebAssembly student record build/deploy script as EXTRA
+_extras/wasm-student-record/deploy.bat,dsa-main/deploy.bat,NA,Categorized Emscripten WebAssembly student record build/deploy script as EXTRA
+_extras/wasm-student-record/serve.bat,dsa-main/serve.bat,NA,Categorized Emscripten WebAssembly student record build/deploy script as EXTRA
+_extras/wasm-student-record/verify.bat,dsa-main/verify.bat,NA,Categorized Emscripten WebAssembly student record build/deploy script as EXTRA
+_extras/wasm-student-record/README.md,dsa-main/README.md,NA,Categorized Emscripten WebAssembly student record build/deploy script as EXTRA
+_extras/console-projects/LibraryManagement.cpp,dsa-main/LibraryManagement.cpp,NA,Categorized Library Management console project as EXTRA
+_extras/web-tutorials/html-form-guide.html,DSA_final-main/index.html,NA,Categorized HTML form tutorial demo as EXTRA
+_archive/DSA_server-main/CLAUDE.md,DSA_server-main/CLAUDE.md,NA,Archived legacy status/instruction file in _archive/
+_archive/DSA_server-main/status.txt,DSA_server-main/DSA-MasterCourse/status.txt,NA,Archived legacy status/instruction file in _archive/
+_archive/DSA_server-main/ROADMAP.md,DSA_server-main/DSA-MasterCourse/ROADMAP.md,NA,Archived legacy status/instruction file in _archive/
+_archive/DSA_server-main/STUDY_PLAN.md,DSA_server-main/DSA-MasterCourse/STUDY_PLAN.md,NA,Archived legacy status/instruction file in _archive/
+_archive/legacy-planning/00-MASTER-PROMPT.md,00-MASTER-PROMPT.md,NA,Archived legacy planning file in _archive/
+_archive/legacy-planning/01-REPO-STRUCTURE-AND-NAMING.md,01-REPO-STRUCTURE-AND-NAMING.md,NA,Archived legacy planning file in _archive/
+_archive/legacy-planning/02-COMPLETE-DSA-CURRICULUM.md,02-COMPLETE-DSA-CURRICULUM.md,NA,Archived legacy planning file in _archive/
+_archive/legacy-planning/03-CONTENT-STANDARDS-AND-TEMPLATE.md,03-CONTENT-STANDARDS-AND-TEMPLATE.md,NA,Archived legacy planning file in _archive/
+_archive/legacy-planning/04-EXECUTION-PLAN-AND-PROMPTS.md,04-EXECUTION-PLAN-AND-PROMPTS.md,NA,Archived legacy planning file in _archive/
+_archive/commit.txt,DSA_final-main/commit.txt,NA,Archived non-empty scratch commit commands in _archive/
+_archive/dsa-main/tempCodeRunnerFile.cpp,dsa-main/tempCodeRunnerFile.cpp,NA,Archived non-empty temp runner file in _archive/
+_archive/dsa-main/.gitignore,dsa-main/.gitignore,NA,Archived sub-project gitignore in _archive/

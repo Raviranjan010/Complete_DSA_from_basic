@@ -12,8 +12,8 @@ Backup Tag: `pre-reconstruction` (commit 480394143b325dccc19355ac0b77e6f89437634
 | Phase 1 | Repository Discovery (Read-Only) | **DONE** | 2026-10-05 | 253 files audited in full; 0 files modified outside `_meta/` |
 | Phase 2 | Gap Analysis | **DONE** | 2026-10-05 | Target curriculum vs existing content mapped |
 | Phase 3 | Architecture Design | **DONE** | 2026-10-05 | Final tree, migration map, topic dependency ready |
-| **GATE G1** | **Human Review & Approval** | **IN_PROGRESS** | Awaiting user approval | **Execution halted at Gate G1** |
-| Phase 4 | Migration / Reconstruction | NOT_STARTED | — | Awaiting G1 approval |
+| **GATE G1** | **Human Review & Approval** | **APPROVED** | 2026-10-05 | Approved by user with 11 operational conditions |
+| Phase 4 | Migration / Pure Merge | **IN_PROGRESS** | 2026-10-05 | Topics 00-15 merged, tested, audited, and committed |
 | Phase 5 | Content Completion (Topic by Topic) | NOT_STARTED | — | Awaiting Phase 4 |
 | Phase 6 | Code Implementation & Verification | NOT_STARTED | — | Awaiting Phase 5 |
 | Phase 7 | Quality Assurance (Repo-Wide Gates) | NOT_STARTED | — | Automated gate verification |
