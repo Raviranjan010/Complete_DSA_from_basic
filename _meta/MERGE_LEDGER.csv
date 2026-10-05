@@ -20,3 +20,10 @@ new_path,base_source,contributed_from,what_was_added
 00-Start-Here/code/004-basic-array-vector/solution.cpp,dsa-main/basic_array.cpp,dsa-main/vector_basic.cpp; dsa-main/user_input_vector.cpp; dsa-main/1_basic.cpp,Static and dynamic array/vector fundamentals
 01-complexity-analysis/concepts/01-asymptotic-analysis-and-big-o.md,DSA_ac-main/Array/03_DSA_Time_and_Space_Complexity_Notes.md,DSA_server-main/DSA-MasterCourse/01_Complexity_Analysis/01_notes.md,Consolidated mathematical asymptotic derivations and mastery notes
 01-complexity-analysis/concepts/02-complexity-analysis-mcqs.md,DSA_server-main/DSA-MasterCourse/01_Complexity_Analysis/01_mcqs.md,NA,Preserved complexity analysis self-check MCQs
+02-Math-for-DSA/README.md,NA,NA,Created topic hub README for Math for DSA
+02-Math-for-DSA/concepts/01-gcd-and-euclidean-algorithm.md,dsa-main/15_GCD_recursion.cpp,NA,Created GCD & Euclidean algorithm theory from implementation notes
+02-Math-for-DSA/concepts/02-fast-exponentiation-and-powers.md,DSA_ac-main/Array/04_DSA_Binary_Exponentiation_and_Stock_Problem_Notes.md,NA,Preserved binary exponentiation theory notes
+02-Math-for-DSA/concepts/03-armstrong-and-digit-math.md,dsa-main/16_Armstrong_Number_check.cpp,NA,Created Armstrong number theory notes
+02-Math-for-DSA/code/001-gcd-euclidean/solution.cpp,dsa-main/15_GCD_recursion.cpp,NA,Recursive Euclidean GCD implementation
+02-Math-for-DSA/code/002-armstrong-number/solution.cpp,dsa-main/16_Armstrong_Number_check.cpp,NA,Armstrong number check implementation
+02-Math-for-DSA/code/003-binary-exponentiation/solution.cpp,dsa-main/5_p_to_the_power_q_UsingRecursion.cpp,NA,Fast recursive power / exponentiation
