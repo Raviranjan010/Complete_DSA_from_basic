@@ -68,3 +68,6 @@ new_path,base_source,contributed_from,what_was_added
 05-Two-Pointers-and-Sliding-Window/problems/003-sliding-window-problems.md,DSA_server-main/DSA-MasterCourse/02_Arrays/02_Sliding_Window/Problems/Medium.md,None,"Curated Sliding Window problem sets (min window substring, longest unique substr)"
 05-Two-Pointers-and-Sliding-Window/problems/004-prefix-sum-problems.md,DSA_server-main/DSA-MasterCourse/02_Arrays/03_Prefix_Sum/Problems/Easy_Medium.md,None,Curated Prefix Sum problem solutions
 05-Two-Pointers-and-Sliding-Window/code/001-prefix-sum-queries/solution.cpp,dsa-main/8_prefix_sum.cpp,dsa-main/9_check_prefix_sum.cpp; dsa-main/10sum_interval.cpp,"Prefix sum array construction, interval sum query, and prefix sum partition check"
+06-Hashing/README.md,NA,NA,Created topic hub README for Hashing
+06-Hashing/concepts/01-hashing-fundamentals-and-collision-handling.md,DSA_server-main/DSA-MasterCourse/09_Hashing/09_notes.md,Summer_pep_DSA-main/07-Hashing.md,"Merged hashing theory, hash functions, collision strategies, and STL maps"
+06-Hashing/code/001-hashmap-basics/solution.cpp,NA,NA,Created hash map and set foundational solution code
