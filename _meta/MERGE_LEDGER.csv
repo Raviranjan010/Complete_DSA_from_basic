@@ -84,3 +84,8 @@ new_path,base_source,contributed_from,what_was_added
 08-Linked-List/README.md,NA,NA,Created topic hub README for Linked List
 08-Linked-List/concepts/01-linked-list-fundamentals-and-operations.md,DSA_server-main/DSA-MasterCourse/06_Linked_List/06_notes.md,Summer_pep_DSA-main/10-Linked-List.md,"Merged linked list structure, pointer linking, traversal, insertion, and reversal"
 08-Linked-List/code/001-singly-linked-list/solution.cpp,NA,NA,"Created singly linked list insertion, traversal, and reversal implementation"
+09-Stack-and-Queue/README.md,NA,NA,Created topic hub README for Stack and Queue
+09-Stack-and-Queue/concepts/01-stack-fundamentals-and-monotonic-stack.md,DSA_server-main/DSA-MasterCourse/07_Stack/07_notes.md,Summer_pep_DSA-main/11-Stack.md,"Merged stack LIFO theory, push/pop/top, and monotonic stack Next Greater Element pattern"
+09-Stack-and-Queue/concepts/02-queue-deque-and-sliding-window-maximum.md,DSA_server-main/DSA-MasterCourse/08_Queue_and_Deque/08_notes.md,Summer_pep_DSA-main/12-Queue.md,"Merged queue FIFO theory, circular queues, deque, and sliding window maximum"
+09-Stack-and-Queue/code/001-stack-operations/solution.cpp,NA,NA,Created stack data structure implementation
+09-Stack-and-Queue/code/002-queue-operations/solution.cpp,NA,NA,Created circular queue implementation
