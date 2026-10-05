@@ -108,3 +108,6 @@ new_path,base_source,contributed_from,what_was_added
 14-Dynamic-Programming/concepts/01-dp-fundamentals-memoization-tabulation.md,DSA_server-main/DSA-MasterCourse/15_Dynamic_Programming/15_notes.md,NA,"Preserved DP fundamentals, 1D/2D patterns, knapsack, and LCS/LIS frameworks"
 14-Dynamic-Programming/concepts/02-advanced-dp-and-optimizations.md,DSA_server-main/DSA-MasterCourse/21_Advanced_DP/21_notes.md,NA,"Preserved advanced DP notes (bitmask DP, tree DP, and digit DP)"
 14-Dynamic-Programming/code/001-climbing-stairs-fibonacci/solution.cpp,NA,NA,Created climbing stairs 1D DP solution
+15-Bit-Manipulation/README.md,NA,NA,Created topic hub README for Bit Manipulation
+15-Bit-Manipulation/concepts/01-bitwise-operators-and-binary-tricks.md,DSA_server-main/DSA-MasterCourse/18_Bit_Manipulation/18_notes.md,NA,"Preserved bitwise operations, bitmasking, and single number patterns"
+15-Bit-Manipulation/code/001-bitwise-tricks/solution.cpp,NA,NA,Created bitwise tricks and count set bits implementation
