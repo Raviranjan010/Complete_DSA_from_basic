@@ -990,4 +990,4 @@ int binarySearchOnAnswer(int minPossible, int maxPossible) {
 
 **Master these hard problems and you're ready for any binary search interview question!**
 
-[← Back to Medium](Medium.md) | [← Back to Notes](../Notes.md)
+[← Back to Medium](002-search-in-rotated-sorted-array.md) | [← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md)

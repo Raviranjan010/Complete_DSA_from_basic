@@ -357,7 +357,7 @@ int main() {
 
 **Next**: Solve problems in `Problems/` folder! →
 
-[← Back to README](../README.md) | [Problems →](Problems/Easy.md)
+[← Back to README](../README.md) | [Problems →](../../03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md)
 
 ---
 
@@ -1124,7 +1124,7 @@ while(m <= h) {
 
 **Next**: Review common mistakes in `Mistakes.md` →
 
-[← Back to Notes](Notes.md) | [Mistakes →](Mistakes.md)
+[← Back to Notes](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md) | [Mistakes →](../../03-Arrays-and-Strings/concepts/05-common-mistakes-and-pitfalls.md)
 
 ---
 
@@ -1462,4 +1462,4 @@ Before submitting two-pointer solution:
 
 **Next**: Practice problems in `Problems/` folder →
 
-[← Back to Patterns](Patterns.md) | [Problems →](Problems/Easy.md)
+[← Back to Patterns](../../03-Arrays-and-Strings/concepts/04-pattern-recognition-guide.md) | [Problems →](../../03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md)

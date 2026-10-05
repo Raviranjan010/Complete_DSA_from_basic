@@ -506,7 +506,7 @@ Now that you understand array basics, continue learning:
 3. ✅ **Complexity Analysis** — Understanding performance
 4. ✅ **Vector vs Array** — When to use which
 
-**Next File**: [Memory Model](Memory_Model.md) →
+**Next File**: [Memory Model](09-pointers-and-memory-model.md) →
 
 ---
 
@@ -993,7 +993,7 @@ for(int x : v) {
 
 **Summary**: Use **vectors by default**, use **arrays for optimization**!
 
-[← Back to README](../README.md) | [Next: Two Pointer →](../01_Two_Pointer/Notes.md)
+[← Back to README](../README.md) | [Next: Two Pointer →](../../05-Two-Pointers-and-Sliding-Window/concepts/01-two-pointers-technique-guide.md)
 
 
 ---

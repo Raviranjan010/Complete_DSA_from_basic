@@ -2501,4 +2501,4 @@ if n = 100: n³ = 10⁶ → OK ✅
 2. ✅ Practice analyzing 20+ code snippets
 3. ✅ Move to **02_Arrays**
 
-[← Back to README](../README.md) | [Next: Arrays →](../02_Arrays/02_notes.md)
+[← Back to README](../README.md) | [Next: Arrays →](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md)

@@ -449,7 +449,7 @@ int kadane(vector<int>& nums) {
 
 **Next**: Solve problems in `Problems/` folder! →
 
-[← Back to README](../README.md) | [Problems →](Problems/Easy.md)
+[← Back to README](../README.md) | [Problems →](../problems/001-two-sum-pair-sum.md)
 
 
 ---
@@ -670,7 +670,7 @@ int maxSubarraySumCircular(vector<int>& nums) {
 
 **Master Kadane's for all subarray maximum problems!**
 
-[← Back to Notes](../Notes.md)
+[← Back to Notes](02-subarrays-and-kadane-algorithm.md)
 
 
 ---
@@ -739,4 +739,4 @@ int maxProd = nums[0];
 
 **Avoid these and Kadane's becomes easy!**
 
-[← Back to Patterns](Patterns.md) | [← Back to Notes](Notes.md)
+[← Back to Patterns](04-pattern-recognition-guide.md) | [← Back to Notes](01-array-master-notes.md)

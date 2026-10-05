@@ -431,7 +431,7 @@ return slow;  // nth from end
 2. ✅ Solve 20 linked list problems
 3. ✅ Move to **07_Stack**
 
-[← Back to README](../README.md) | [Next: Stack →](../07_Stack/07_notes.md)
+[← Back to README](../README.md) | [Next: Stack →](../../09-Stack-and-Queue/concepts/01-stack-fundamentals-and-monotonic-stack.md)
 
 
 ---

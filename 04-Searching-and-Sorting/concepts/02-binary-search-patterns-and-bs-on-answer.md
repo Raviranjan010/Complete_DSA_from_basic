@@ -622,7 +622,7 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
 **Master binary search for logarithmic time solutions!**
 
-[← Back to Notes](../Notes.md) | [Easy Problems](Problems/Easy.md) | [Medium Problems](Problems/Medium.md) | [Hard Problems](Problems/Hard.md) | [2D Arrays](Problems/2D_Arrays.md)
+[← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md) | [Easy Problems](../../03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md) | [Medium Problems](../../03-Arrays-and-Strings/problems/002-majority-element.md) | [Hard Problems](../../03-Arrays-and-Strings/problems/004-maximum-subarray-kadane.md) | [2D Arrays](../problems/003-binary-search-2d-matrix.md)
 
 
 ---
@@ -712,4 +712,4 @@ if(nums[mid] < target) {  // Strict less than
 
 **Avoid these and binary search becomes reliable!**
 
-[← Back to Patterns](Patterns.md) | [← Back to Notes](Notes.md)
+[← Back to Patterns](../../03-Arrays-and-Strings/concepts/04-pattern-recognition-guide.md) | [← Back to Notes](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md)

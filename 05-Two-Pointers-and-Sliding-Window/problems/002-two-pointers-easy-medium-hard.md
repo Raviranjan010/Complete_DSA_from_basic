@@ -462,4 +462,4 @@ Result: [0,0,1,1,2,2] ✓
 
 **Next**: Challenge yourself with Hard problems →
 
-[← Back to Easy](Easy.md) | [Hard Problems →](Hard.md)
+[← Back to Easy](../../04-Searching-and-Sorting/problems/001-binary-search-basic.md) | [Hard Problems →](../../04-Searching-and-Sorting/problems/004-binary-search-on-answer-hard.md)

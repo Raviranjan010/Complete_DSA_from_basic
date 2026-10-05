@@ -265,6 +265,6 @@ void inorder(TreeNode* root, vector<int>& result) {
 
 **🎉 You've mastered BST!**
 
-**Next**: [12_Heaps_and_Priority_Queue](../12_Heaps_and_Priority_Queue/12_notes.md)
+**Next**: [12_Heaps_and_Priority_Queue](../../11-Heap-and-Priority-Queue/concepts/01-heaps-and-priority-queues-theory.md)
 
 [← Back to README](../README.md)

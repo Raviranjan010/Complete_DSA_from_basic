@@ -572,4 +572,4 @@ D) Compilation error
 3. Solve practice problems from notes
 4. Move to **01_Complexity_Analysis** when ready
 
-[← Back to Notes](00_notes.md) | [Next: Complexity Analysis →](../01_Complexity_Analysis/01_notes.md)
+[← Back to Notes](01-getting-started-basics.md) | [Next: Complexity Analysis →](../../01-Complexity-Analysis/concepts/01-asymptotic-analysis-and-big-o.md)

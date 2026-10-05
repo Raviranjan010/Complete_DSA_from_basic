@@ -314,6 +314,6 @@ vector<int> topologicalSort(int n, const vector<vector<int>>& adj) {
 
 **🎉 You've mastered Advanced Graphs!**
 
-**Next**: [21_Advanced_DP](../21_Advanced_DP/21_notes.md)
+**Next**: [21_Advanced_DP](../../14-Dynamic-Programming/concepts/02-advanced-dp-and-optimizations.md)
 
 [← Back to README](../README.md)

@@ -256,7 +256,7 @@ public:
 
 **🎉 You've mastered Queue and Deque!**
 
-**Next**: [09_Hashing](../09_Hashing/09_notes.md)
+**Next**: [09_Hashing](../../06-Hashing/concepts/01-hashing-fundamentals-and-collision-handling.md)
 
 [← Back to README](../README.md)
 

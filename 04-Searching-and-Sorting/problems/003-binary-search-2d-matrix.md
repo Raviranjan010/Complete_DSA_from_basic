@@ -515,4 +515,4 @@ minVal=5, maxVal=5 → Return 5 ✓
 
 **Master 2D array binary search patterns!**
 
-[← Back to Hard Problems](Hard.md) | [← Back to Notes](../Notes.md)
+[← Back to Hard Problems](004-binary-search-on-answer-hard.md) | [← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md)

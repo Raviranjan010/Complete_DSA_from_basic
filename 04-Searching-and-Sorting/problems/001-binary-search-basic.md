@@ -561,4 +561,4 @@ int countOccurrences(vector<int>& arr, int target) {
 
 **Master these basics before moving to medium!**
 
-[← Back to Notes](../Notes.md) | [Medium Problems →](Medium.md)
+[← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md) | [Medium Problems →](002-search-in-rotated-sorted-array.md)

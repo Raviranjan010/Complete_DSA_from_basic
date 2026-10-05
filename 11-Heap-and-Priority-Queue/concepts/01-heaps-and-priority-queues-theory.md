@@ -291,6 +291,6 @@ void heapify(vector<int>& arr, int n, int i) {
 
 **🎉 You've mastered Heaps!**
 
-**Next**: [11_Binary_Search_Tree](../11_Binary_Search_Tree/11_notes.md)
+**Next**: [11_Binary_Search_Tree](../../10-Trees/concepts/02-binary-search-tree-properties-and-ops.md)
 
 [← Back to README](../README.md)

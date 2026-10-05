@@ -460,6 +460,6 @@ Always define base cases before recurrence!
 
 **🎉 You've mastered Dynamic Programming!**
 
-**Next**: [16_Greedy_Algorithms](../16_Greedy_Algorithms/16_notes.md)
+**Next**: [16_Greedy_Algorithms](../../12-Greedy-and-Intervals/concepts/01-greedy-choice-property-and-proofs.md)
 
 [← Back to README](../README.md)

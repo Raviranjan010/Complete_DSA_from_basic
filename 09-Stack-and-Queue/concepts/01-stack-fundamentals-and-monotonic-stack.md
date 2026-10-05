@@ -360,7 +360,7 @@ int dequeue() {
 
 **🎉 You've mastered Stack!**
 
-**Next**: [08_Queue_and_Deque](../08_Queue_and_Deque/08_notes.md)
+**Next**: [08_Queue_and_Deque](../../09-Stack-and-Queue/concepts/02-queue-deque-and-sliding-window-maximum.md)
 
 [← Back to README](../README.md)
 

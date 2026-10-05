@@ -21,12 +21,12 @@
 
 ## 📚 Related Resources
 
-- [Complete README with Learning Path](README.md)
-- [Problem Index - All 85+ Problems](PROBLEM_INDEX.md)
-- [Easy Problems](00_Fundamentals/05_Easy_Problems.md)
-- [Medium Problems with Solutions](06_Medium_Problems/Complete_Solutions.md)
-- [Hard Problems with Solutions](07_Hard_Problems/Complete_Solutions.md)
-- [Pattern Recognition Guide](08_Pattern_Recognition/Complete_Guide.md)
+- [Complete README with Learning Path](../README.md)
+- [Problem Index - All 85+ Problems](../README.md)
+- [Easy Problems](../problems/001-two-sum-pair-sum.md)
+- [Medium Problems with Solutions](../problems/002-majority-element.md)
+- [Hard Problems with Solutions](../problems/004-maximum-subarray-kadane.md)
+- [Pattern Recognition Guide](04-pattern-recognition-guide.md)
 
 ---
 
@@ -1173,7 +1173,7 @@ Before you're interview-ready:
 
 **🎓 You're now ready to master Arrays and ace technical interviews!**
 
-[← Back to README](../README.md) | [Easy Problems](../00_Fundamentals/Array_Easy_Problems.md) | [Binary Search](../05_Binary_Search/Notes.md)
+[← Back to README](../README.md) | [Easy Problems](../problems/001-two-sum-pair-sum.md) | [Binary Search](../../04-Searching-and-Sorting/concepts/01-linear-and-binary-search-foundations.md)
 
 
 ---

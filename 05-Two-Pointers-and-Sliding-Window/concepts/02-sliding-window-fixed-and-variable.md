@@ -419,7 +419,7 @@ int main() {
 
 **Next**: Solve problems in `Problems/` folder! →
 
-[← Back to README](../README.md) | [Problems →](Problems/Easy.md)
+[← Back to README](../README.md) | [Problems →](../../03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md)
 
 
 ---
@@ -1586,7 +1586,7 @@ SPACE: O(k)
 
 **Master all 4 variations to solve any sliding window problem!**
 
-[← Back to Notes](../Notes.md) | [Easy Problems](Problems/Easy.md)
+[← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md) | [Easy Problems](../../03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md)
 
 
 ---
@@ -1859,4 +1859,4 @@ Run through this checklist when stuck:
 
 **Avoid these mistakes and sliding window becomes easy!**
 
-[← Back to Patterns](Patterns.md) | [← Back to Notes](Notes.md)
+[← Back to Patterns](../../03-Arrays-and-Strings/concepts/04-pattern-recognition-guide.md) | [← Back to Notes](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md)

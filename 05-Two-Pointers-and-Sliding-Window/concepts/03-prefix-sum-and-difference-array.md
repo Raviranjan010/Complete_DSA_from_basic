@@ -400,7 +400,7 @@ int query2D(vector<vector<int>>& prefix, int r1, int c1, int r2, int c2) {
 
 **Next**: Solve problems in `Problems/` folder! →
 
-[← Back to README](../README.md) | [Problems →](Problems/Easy.md)
+[← Back to README](../README.md) | [Problems →](../../03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md)
 
 
 ---
@@ -1165,7 +1165,7 @@ SPACE: O(n)
 
 **Master prefix sum for efficient range queries!**
 
-[← Back to Notes](../Notes.md) | [Easy_Medium Problems](Problems/Easy_Medium.md)
+[← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md) | [Easy_Medium Problems](../problems/004-prefix-sum-problems.md)
 
 
 ---
@@ -1397,4 +1397,4 @@ When stuck, check:
 
 **Avoid these mistakes and prefix sum becomes second nature!**
 
-[← Back to Patterns](Patterns.md) | [← Back to Notes](Notes.md)
+[← Back to Patterns](../../03-Arrays-and-Strings/concepts/04-pattern-recognition-guide.md) | [← Back to Notes](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md)

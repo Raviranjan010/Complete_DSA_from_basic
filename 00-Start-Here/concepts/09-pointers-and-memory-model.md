@@ -4937,12 +4937,12 @@ Address = 2000 + (3 × 8) = 2000 + 24 = 2024
 ## 12. 🎯 What's Next?
 
 Continue your journey:
-1. ✅ [Array Basics](Array_Basics.md) — Foundation
+1. ✅ [Array Basics](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md) — Foundation
 2. ✅ **Memory Model** — You are here!
-3. ✅ [Indexing and Traversal](Indexing_and_Traversal.md) — Navigation patterns
-4. ✅ [Complexity Analysis](Complexity_Analysis.md) — Performance understanding
+3. ✅ [Indexing and Traversal](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md) — Navigation patterns
+4. ✅ [Complexity Analysis](../../01-Complexity-Analysis/concepts/01-asymptotic-analysis-and-big-o.md) — Performance understanding
 
-**Next File**: [Indexing and Traversal](Indexing_and_Traversal.md) →
+**Next File**: [Indexing and Traversal](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md) →
 
 
 ---

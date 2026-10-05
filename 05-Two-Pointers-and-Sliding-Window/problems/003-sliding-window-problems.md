@@ -364,4 +364,4 @@ public:
 
 **Next**: Practice more patterns →
 
-[← Back to Notes](../Notes.md)
+[← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md)

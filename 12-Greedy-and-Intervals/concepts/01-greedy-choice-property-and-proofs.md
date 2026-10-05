@@ -267,6 +267,6 @@ for(auto& interval : intervals) {
 
 **🎉 You've mastered Greedy Algorithms!**
 
-**Next**: [17_Divide_and_Conquer](../17_Divide_and_Conquer/17_notes.md)
+**Next**: [17_Divide_and_Conquer](../../07-Recursion-and-Backtracking/concepts/02-divide-and-conquer-principles.md)
 
 [← Back to README](../README.md)

@@ -329,6 +329,6 @@ while(!q.empty()) {
 
 **🎉 You've mastered Trees!**
 
-**Next**: [11_Binary_Search_Tree](../11_Binary_Search_Tree/11_notes.md)
+**Next**: [11_Binary_Search_Tree](../../10-Trees/concepts/02-binary-search-tree-properties-and-ops.md)
 
 [← Back to README](../README.md)

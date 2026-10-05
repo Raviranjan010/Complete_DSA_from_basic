@@ -983,7 +983,7 @@ int solve(int n) {
 3. ✅ Practice backtracking template
 4. ✅ Move to **05_Sorting_and_Searching**
 
-[← Back to README](../README.md) | [Next: Sorting →](../05_Sorting_and_Searching/05_notes.md)
+[← Back to README](../README.md) | [Next: Sorting →](../../04-Searching-and-Sorting/concepts/03-sorting-algorithms-theory.md)
 
 
 ---

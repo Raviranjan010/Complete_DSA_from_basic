@@ -569,4 +569,4 @@ auto ub = upper_bound(arr.begin(), arr.end(), 5);
 3. ✅ Study code examples in `code/` folder
 4. ✅ Move to **06_Linked_List**
 
-[← Back to README](../README.md) | [Next: Linked List →](../06_Linked_List/06_notes.md)
+[← Back to README](../README.md) | [Next: Linked List →](../../08-Linked-List/concepts/01-linked-list-fundamentals-and-operations.md)

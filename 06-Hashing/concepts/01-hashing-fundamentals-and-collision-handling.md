@@ -336,7 +336,7 @@ bool hasDuplicate(const vector<int>& nums) {
 
 **🎉 You've mastered Hashing!**
 
-**Next**: [10_Trees](../10_Trees/10_notes.md)
+**Next**: [10_Trees](../../10-Trees/concepts/01-binary-trees-fundamentals-and-traversals.md)
 
 [← Back to README](../README.md)
 

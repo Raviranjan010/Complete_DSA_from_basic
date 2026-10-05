@@ -1053,7 +1053,7 @@ for(char c : s) {
 3. ✅ Study code examples in `code/` folder
 4. ✅ Move to **04_Recursion_and_Backtracking**
 
-[← Back to README](../README.md) | [Next: Recursion →](../04_Recursion_and_Backtracking/04_notes.md)
+[← Back to README](../README.md) | [Next: Recursion →](../../07-Recursion-and-Backtracking/concepts/01-recursion-foundations-and-call-stack.md)
 
 
 ---

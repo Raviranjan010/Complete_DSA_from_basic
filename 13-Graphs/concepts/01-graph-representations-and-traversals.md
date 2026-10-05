@@ -366,6 +366,6 @@ bool checkBipartite(int n, const vector<vector<int>>& adj) {
 
 **🎉 You've mastered Graphs!**
 
-**Next**: [15_Dynamic_Programming](../15_Dynamic_Programming/15_notes.md)
+**Next**: [15_Dynamic_Programming](../../14-Dynamic-Programming/concepts/01-dp-fundamentals-memoization-tabulation.md)
 
 [← Back to README](../README.md)

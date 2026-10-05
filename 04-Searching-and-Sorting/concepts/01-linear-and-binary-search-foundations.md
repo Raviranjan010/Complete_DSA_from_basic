@@ -4294,4 +4294,4 @@ int findRotationCount(vector<int>& nums) {
 
 **Next**: Solve problems in `Problems/` folder! →
 
-[← Back to README](../README.md) | [Easy Problems →](Problems/Easy.md) | [Medium Problems →](Problems/Medium.md) | [Hard Problems →](Problems/Hard.md)
+[← Back to README](../README.md) | [Easy Problems →](../../03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md) | [Medium Problems →](../../03-Arrays-and-Strings/problems/002-majority-element.md) | [Hard Problems →](../../03-Arrays-and-Strings/problems/004-maximum-subarray-kadane.md)

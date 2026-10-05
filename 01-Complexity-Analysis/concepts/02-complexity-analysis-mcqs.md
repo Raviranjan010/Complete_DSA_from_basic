@@ -566,4 +566,4 @@ D) O(n²)
 3. Memorize common complexities table
 4. Move to **02_Arrays** when ready
 
-[← Back to Notes](01_notes.md) | [Next: Arrays →](../02_Arrays/02_notes.md)
+[← Back to Notes](01-asymptotic-analysis-and-big-o.md) | [Next: Arrays →](../../03-Arrays-and-Strings/concepts/01-array-master-notes.md)

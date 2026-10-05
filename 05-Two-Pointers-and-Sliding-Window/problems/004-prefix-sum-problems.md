@@ -406,4 +406,4 @@ result = [24, 12, 8, 6]
 
 **Next**: Practice more advanced problems →
 
-[← Back to Notes](../Notes.md)
+[← Back to Notes](../../03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md)

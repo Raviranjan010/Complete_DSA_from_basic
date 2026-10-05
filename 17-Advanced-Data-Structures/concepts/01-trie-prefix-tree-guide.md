@@ -317,6 +317,6 @@ Where:
 
 **🎉 You've mastered Tries!**
 
-**Next**: [14_Graphs](../14_Graphs/14_notes.md)
+**Next**: [14_Graphs](../../13-Graphs/concepts/01-graph-representations-and-traversals.md)
 
 [← Back to README](../README.md)
