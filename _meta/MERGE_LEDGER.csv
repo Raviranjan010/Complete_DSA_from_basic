@@ -104,3 +104,7 @@ new_path,base_source,contributed_from,what_was_added
 13-Graphs/concepts/01-graph-representations-and-traversals.md,DSA_server-main/DSA-MasterCourse/14_Graphs/14_notes.md,NA,"Preserved graph representation, BFS/DFS, cycle detection, and topological sort"
 13-Graphs/concepts/02-shortest-paths-and-advanced-graphs.md,DSA_server-main/DSA-MasterCourse/20_Advanced_Graphs/20_notes.md,NA,"Preserved shortest path algorithms: Dijkstra, Bellman-Ford, and Floyd-Warshall"
 13-Graphs/code/001-graph-traversals/solution.cpp,NA,NA,Created BFS and DFS graph traversals implementation
+14-Dynamic-Programming/README.md,NA,NA,Created topic hub README for Dynamic Programming
+14-Dynamic-Programming/concepts/01-dp-fundamentals-memoization-tabulation.md,DSA_server-main/DSA-MasterCourse/15_Dynamic_Programming/15_notes.md,NA,"Preserved DP fundamentals, 1D/2D patterns, knapsack, and LCS/LIS frameworks"
+14-Dynamic-Programming/concepts/02-advanced-dp-and-optimizations.md,DSA_server-main/DSA-MasterCourse/21_Advanced_DP/21_notes.md,NA,"Preserved advanced DP notes (bitmask DP, tree DP, and digit DP)"
+14-Dynamic-Programming/code/001-climbing-stairs-fibonacci/solution.cpp,NA,NA,Created climbing stairs 1D DP solution
