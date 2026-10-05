@@ -89,3 +89,8 @@ new_path,base_source,contributed_from,what_was_added
 09-Stack-and-Queue/concepts/02-queue-deque-and-sliding-window-maximum.md,DSA_server-main/DSA-MasterCourse/08_Queue_and_Deque/08_notes.md,Summer_pep_DSA-main/12-Queue.md,"Merged queue FIFO theory, circular queues, deque, and sliding window maximum"
 09-Stack-and-Queue/code/001-stack-operations/solution.cpp,NA,NA,Created stack data structure implementation
 09-Stack-and-Queue/code/002-queue-operations/solution.cpp,NA,NA,Created circular queue implementation
+10-Trees/README.md,NA,NA,Created topic hub README for Trees
+10-Trees/concepts/01-binary-trees-fundamentals-and-traversals.md,DSA_server-main/DSA-MasterCourse/10_Trees/10_notes.md,NA,"Preserved binary trees structure, properties, and DFS/BFS traversals"
+10-Trees/concepts/02-binary-search-tree-properties-and-ops.md,DSA_server-main/DSA-MasterCourse/11_Binary_Search_Tree/11_notes.md,NA,"Preserved BST properties, search, insert, and delete operations"
+10-Trees/code/001-binary-tree-traversals/solution.cpp,NA,NA,Created binary tree traversals implementation
+10-Trees/code/002-bst-operations/solution.cpp,NA,NA,Created BST insertion and search implementation
