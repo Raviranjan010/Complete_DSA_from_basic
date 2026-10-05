@@ -27,3 +27,23 @@ new_path,base_source,contributed_from,what_was_added
 02-Math-for-DSA/code/001-gcd-euclidean/solution.cpp,dsa-main/15_GCD_recursion.cpp,NA,Recursive Euclidean GCD implementation
 02-Math-for-DSA/code/002-armstrong-number/solution.cpp,dsa-main/16_Armstrong_Number_check.cpp,NA,Armstrong number check implementation
 02-Math-for-DSA/code/003-binary-exponentiation/solution.cpp,dsa-main/5_p_to_the_power_q_UsingRecursion.cpp,NA,Fast recursive power / exponentiation
+03-Arrays-and-Strings/README.md,02-arrays-and-strings/README.md,NA,Maintained topic hub README for Arrays and Strings
+03-Arrays-and-Strings/concepts/01-array-master-notes.md,DSA_server-main/DSA-MasterCourse/02_Arrays/ARRAY_MASTER_NOTES.md,Summer_pep_DSA-main/02-Arrays-Basics.md,Comprehensive master notes on array operations and memory layout
+03-Arrays-and-Strings/concepts/02-subarrays-and-kadane-algorithm.md,DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Notes.md,DSA_final-main/02_Arrays/05_Subarrays_and_Kadanes_Algorithm.md; DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Patterns.md; DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Mistakes.md,Kadane algorithm and subarray generation theory
+03-Arrays-and-Strings/concepts/03-strings-fundamentals-and-manipulation.md,DSA_server-main/DSA-MasterCourse/03_Strings/03_notes.md,Summer_pep_DSA-main/05-Strings.md,"String immutability, manipulation, and pattern foundation"
+03-Arrays-and-Strings/concepts/04-pattern-recognition-guide.md,DSA_server-main/DSA-MasterCourse/02_Arrays/08_Pattern_Recognition/Complete_Guide.md,None,Striver array pattern recognition guide
+03-Arrays-and-Strings/concepts/05-common-mistakes-and-pitfalls.md,DSA_server-main/DSA-MasterCourse/02_Arrays/09_Common_Mistakes/Complete_Guide.md,None,Common student pitfalls and edge cases in array processing
+03-Arrays-and-Strings/concepts/06-arrays-and-strings-mcqs.md,DSA_server-main/DSA-MasterCourse/02_Arrays/10_MCQs/Arrays_MCQs.md,DSA_server-main/DSA-MasterCourse/03_Strings/03_mcqs.md,Array and string self-assessment MCQs
+03-Arrays-and-Strings/problems/001-two-sum-pair-sum.md,DSA_ac-main/Array/03_DSA_Pair_Sum_Majority_Element_Brute_Better_Optimal.md,None,Two Sum / Pair Sum Brute-Better-Optimal analysis
+03-Arrays-and-Strings/problems/002-majority-element.md,DSA_ac-main/Array/03_DSA_Pair_Sum_Majority_Element_Brute_Better_Optimal.md,None,Majority Element (Boyer-Moore Voting) analysis
+03-Arrays-and-Strings/problems/003-product-of-array-except-self.md,DSA_ac-main/Array/06_DSA_Product_of_Array_Except_Self_LeetCode_238.md,None,Product of Array Except Self without division analysis
+03-Arrays-and-Strings/problems/004-maximum-subarray-kadane.md,DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Problems/Medium_Hard.md,None,Maximum Subarray Sum Kadane problem analysis
+03-Arrays-and-Strings/code/001-two-sum/solution.cpp,dsa-main/target_sum.cpp,dsa-main/target_sum2.cpp,Two Sum / Target Sum implementations
+03-Arrays-and-Strings/code/002-check-sorted/solution.cpp,dsa-main/check_sorted_or_not.cpp,None,Check if array is sorted implementation
+03-Arrays-and-Strings/code/003-reverse-and-palindrome/solution.cpp,dsa-main/reverse_arr.cpp,dsa-main/11_Palindrome.cpp,Array reverse and string palindrome check
+03-Arrays-and-Strings/code/004-element-frequency/solution.cpp,dsa-main/frequency_query.cpp,dsa-main/Count_occurence.cpp,Element frequency queries in array
+03-Arrays-and-Strings/code/005-extreme-elements/solution.cpp,dsa-main/largest.cpp,dsa-main/second_largest.cpp,Largest and second largest element finding
+03-Arrays-and-Strings/code/006-array-reordering/solution.cpp,dsa-main/even_int_move.cpp,dsa-main/even_int_move2.cpp; dsa-main/even-odd.cpp; dsa-main/5_sort_zero_One.cpp,Parity movement and 0/1 array sorting
+03-Arrays-and-Strings/code/007-matrix-operations/solution.cpp,dsa-main/matrix_Transpose.cpp,dsa-main/11_Matrix_muktiplication.cpp,2D Matrix transpose and matrix multiplication
+03-Arrays-and-Strings/code/008-array-manipulation/solution.cpp,dsa-main/arr_manipulation.cpp,dsa-main/arr_manipulation1.cpp; dsa-main/delete_add.cpp; dsa-main/adding_removing.cpp; dsa-main/printing_elements.cpp; dsa-main/12_printing_numbers.cpp,"Array element addition, deletion, and rotation"
+03-Arrays-and-Strings/code/009-strings-basics/solution.cpp,DSA_server-main/DSA-MasterCourse/03_Strings/code/basics.cpp,DSA_server-main/DSA-MasterCourse/03_Strings/code/string_manipulation.cpp,Basic string manipulation and traversal in C++
