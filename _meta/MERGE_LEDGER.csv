@@ -1,0 +1,20 @@
+new_path,base_source,contributed_from,what_was_added
+00-Start-Here/README.md,00-prerequisites/README.md,NA,Maintained initial topic README stub per Phase 4 pure merge
+00-Start-Here/reference/GLOSSARY.md,GLOSSARY.md,NA,Preserved core reference index file
+00-Start-Here/reference/PATTERNS.md,PATTERNS.md,NA,Preserved core reference index file
+00-Start-Here/concepts/01-getting-started-basics.md,Summer_pep_DSA-main/00-Start-Here-Basics.md,DSA_final-main/01_Basics_Of_Cpp/01_introcution.md; DSA_server-main/DSA-MasterCourse/00_Prerequisites/00_notes.md,Merged beginner onboarding and environment notes
+00-Start-Here/concepts/02-git-and-github.md,Summer_pep_DSA-main/01-Git-And-GitHub.md,None,Preserved Git and GitHub setup guide
+00-Start-Here/concepts/03-cpp-fundamentals.md,DSA_ac-main/C++ Fundamentals for DSA.md,DSA_ac-main/02_Cpp_Control_Flow_Conditional_Statements_DSA_Notes.md; Summer_pep_DSA-main/Language-Basics/Cpp-Basics.md,Consolidated deep C++ fundamentals and control flow
+00-Start-Here/concepts/04-python-basics.md,Summer_pep_DSA-main/Language-Basics/Python-Basics.md,None,Preserved Python language basics
+00-Start-Here/concepts/05-java-basics.md,Summer_pep_DSA-main/Language-Basics/Java-Basics.md,None,Preserved Java language basics
+00-Start-Here/concepts/06-type-casting-and-operators.md,DSA_final-main/01_Basics_Of_Cpp/03_Operators.md,DSA_final-main/01_Basics_Of_Cpp/02_Type_Casting.md,Consolidated operators and type casting rules
+00-Start-Here/concepts/07-conditionals-and-loops.md,DSA_final-main/01_Basics_Of_Cpp/04_Conditional.md,DSA_final-main/01_Basics_Of_Cpp/05_loop.md; DSA_final-main/01_Basics_Of_Cpp/05_pattern.md,"Consolidated conditionals, loop variants, and patterns"
+00-Start-Here/concepts/08-functions-and-parameter-passing.md,DSA_final-main/01_Basics_Of_Cpp/06__functions.md,DSA_final-main/02_Arrays/02_PassedByValue_and_PassedByReference.md,Consolidated function declaration and pass-by-value vs reference
+00-Start-Here/concepts/09-pointers-and-memory-model.md,DSA_ac-main/Array/07_DSA_CPP_Pointers_Complete_Notes.md,DSA_final-main/01_Basics_Of_Cpp/08_pointers.md; DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/02_Memory_Model.md; DSA_final-main/02_Arrays/04_Pointers_and_Arrays.md,Merged comprehensive pointer theory and memory models
+00-Start-Here/concepts/10-arrays-and-vectors-intro.md,DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/01_Array_Basics.md,DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/03_Operations_Complexity.md; DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/04_Vector_vs_Array.md; DSA_ac-main/Array/01_Arrays_Complete_DSA_Notes.md; DSA_ac-main/Array/02_Cpp_Vectors_and_Advanced_Array_DSA_Notes.md,"Merged array memory models, vector comparison, and operations"
+00-Start-Here/concepts/11-binary-number-system.md,DSA_final-main/01_Basics_Of_Cpp/07_BinaryNumber_system.md,None,Preserved binary number system and conversions guide
+00-Start-Here/concepts/12-mcqs-and-self-check.md,DSA_server-main/DSA-MasterCourse/00_Prerequisites/00_mcqs.md,None,Preserved prerequisite conceptual MCQs
+00-Start-Here/code/001-pointers-and-address/solution.cpp,dsa-main/8_increment_address.cpp,dsa-main/2_valueAtAddreaa.cpp; dsa-main/3_updatingValueUsingPointer.cpp; dsa-main/4_swaping_value.cpp,Pointer address and value manipulation solutions
+00-Start-Here/code/002-operators-demo/solution.cpp,DSA_final-main/01_Basics_Of_Cpp/operators.cpp,dsa-main/6_IncrementDecrement.cpp; dsa-main/7_prepostArithematic.cpp,C++ Operators and increment/decrement demonstrations
+00-Start-Here/code/003-functions-demo/solution.cpp,DSA_final-main/01_Basics_Of_Cpp/06_functions.cpp,None,Functions and parameter passing demonstrations
+00-Start-Here/code/004-basic-array-vector/solution.cpp,dsa-main/basic_array.cpp,dsa-main/vector_basic.cpp; dsa-main/user_input_vector.cpp; dsa-main/1_basic.cpp,Static and dynamic array/vector fundamentals

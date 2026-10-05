@@ -1,0 +1,25 @@
+# Zip Backups
+*.zip
+_FULL_BACKUP_BEFORE_MERGE.zip
+Complete_DSA_from_basic-main.zip
+
+# Compiled Binaries & Objects
+*.exe
+*.o
+*.obj
+*.class
+*.out
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db

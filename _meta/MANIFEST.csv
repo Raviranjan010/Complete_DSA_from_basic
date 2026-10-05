@@ -1,0 +1,256 @@
+path,origin,size_bytes,sha256,file_type,language,topic_guess,is_junk,notes
+00-MASTER-PROMPT.md,root,5865,223f5a04e9a7f6e9699cb614b62ec67ec87bda14b6a5197709cc4393c5e533a0,md,md,Project Planning & Constitution,no,Valid source file
+01-REPO-STRUCTURE-AND-NAMING.md,root,4338,5be93f8a0f6aea627ca88bd4afe2c2291c883919afdf6e08c8a12c497ff2b5e8,md,md,Project Planning & Constitution,no,Valid source file
+02-COMPLETE-DSA-CURRICULUM.md,root,13118,2eae936bcd9c687d10a4b05fb0c1a1386f9881b7e0367c09c036cca5ffd6c503,md,md,Project Planning & Constitution,no,Valid source file
+03-CONTENT-STANDARDS-AND-TEMPLATE.md,root,6245,db1e27aecbfebaa81db8c513b8971e3cac23c329daf59ee426c9dd45bd1d6ffb,md,md,Project Planning & Constitution,no,Valid source file
+04-EXECUTION-PLAN-AND-PROMPTS.md,root,8015,6a7ebc367f7d2a5b7e3504489d47574f98320b55814aada8a50f9681c97b0e5c,md,md,Project Planning & Constitution,no,Valid source file
+Complete_DSA_from_basic-main.zip,root,1001341,c8252d3a84abbb7dafa4b7e34e7858d09e471d59f17c7601db18520434599ab8,zip,archive,Project Planning & Constitution,no,Valid source file
+DSA_MASTER_PROMPT.md,root,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,md,md,Project Planning & Constitution,yes,Empty 0-byte file
+GLOSSARY.md,root,1863,e3d1741ca25a18c452174f09a4e9d3d5f890bf65a138c970894178588d15b60d,md,md,Project Planning & Constitution,no,Valid source file
+PATTERNS.md,root,8494,9d51a4155e65201e2c409ad5b1903daed46a86ba1fb6f6f64ccf5fe29ba43169,md,md,Project Planning & Constitution,no,Valid source file
+PROGRESS-TRACKER.md,root,36096,8cdb54e31d4a9d1033d1d8ffe8a14fb90aaf1219007530d8b58fab31ea58615e,md,md,Project Planning & Constitution,no,Valid source file
+README.md,root,35444,ae1875c4cca9b1933d1eb920606c5a599bd63547552deb9449156a9188d896ab,md,md,Project Planning & Constitution,no,Valid source file
+00-prerequisites/README.md,numbered-folders,1538,6502f8a51aa51ff9e8c7329f5dbcf37c875f1e92e3bc94d5794f848f8b6ae704,md,md,Prerequisites & Language Basics,no,Valid source file
+01-complexity-analysis/README.md,numbered-folders,906,d3c6afe9fc5c039aa0031a17564e99bf4713a2062f719f9c93429377e5a62ed0,md,md,Complexity Analysis,no,Valid source file
+02-arrays-and-strings/README.md,numbered-folders,1750,f8bba4a2556385efc10cb3b9a93ae2a582700ae08e3817c599f0e3295ea453d8,md,md,Arrays & Strings,no,Valid source file
+03-recursion-and-backtracking/README.md,numbered-folders,1149,0e231b01526a8fff18155e9b413637171b68dfe9c82a7b3083801d6a67fbb533,md,md,Recursion & Backtracking,no,Valid source file
+04-linked-list/README.md,numbered-folders,1167,63643a14f9055e65ebad098ea9f523917f1cebeb79259a57396a72eb21bcc8df,md,md,Linked List,no,Valid source file
+05-stack-and-queue/README.md,numbered-folders,981,291e283279790ab8bf909b64bc5375c03b725f2ebdfc166eb184ffce0bd1287e,md,md,Stack & Queue,no,Valid source file
+06-hashing/README.md,numbered-folders,994,d502fbdd93efebdce846ad08a7506a484c0e7209cbfe0cc39a9b75ea37074a28,md,md,Hashing,no,Valid source file
+07-trees/README.md,numbered-folders,1521,1c864e105d768ed018b251c70d57e3f2b02395c9fcd3abca1d4cd0860e737bfd,md,md,Trees,no,Valid source file
+08-heaps-and-priority-queue/README.md,numbered-folders,823,370a062a7eef2a07e61f733e2f623a7cc23b59cbcc844c0f0447fc46e433e979,md,md,Stack & Queue,no,Valid source file
+09-graphs/README.md,numbered-folders,1667,88b8da71159070a875dbab5f1c3c4e0baf394bf355b96288af2403e64c6934fd,md,md,Graphs,no,Valid source file
+10-greedy/README.md,numbered-folders,902,3af9157793d6127a36962023bc52e684a52166d66ef41ffc6599f0d4947d347b,md,md,Greedy,no,Valid source file
+11-dynamic-programming/README.md,numbered-folders,1618,79731665c1d22f9c16683d8284260eaaaeeae4b3a164f8f3e41e33355e30c484,md,md,General DSA,no,Valid source file
+12-advanced-strings/README.md,numbered-folders,858,ef0912974928a8e66aab10d85c7824ff92f046504f58e9fa43aa828969421a48,md,md,Strings,no,Valid source file
+13-bit-manipulation-and-math/README.md,numbered-folders,1143,c484d38c9d0373cd8767e1d43237fe55a030892c3678309678b4bfc4e32d0826,md,md,Bit Manipulation,no,Valid source file
+14-advanced-topics/README.md,numbered-folders,925,7fcb16fb3204e9ff45f950fbe37d756f437ffc5e2d0f0563f3929cf61e2448b5,md,md,General DSA,no,Valid source file
+15-interview-prep/README.md,numbered-folders,1139,2a0b27707a242872b25a4317d31a7e6e25f9c3fe92e46f0174b398568b72e2ff,md,md,Interview Prep,no,Valid source file
+CHEATSHEETS/complexity-cheatsheet.md,numbered-folders,697,86c87e162c9338609a5d51f56d3b557ecddd57f0924e4925920a1b0cf19c38ba,md,md,Complexity Analysis,no,Valid source file
+CHEATSHEETS/cpp-stl-cheatsheet.md,numbered-folders,835,4b9db8fb0951089ac34a916e0372cea4b64914135f5db12f20a82304df0acb9a,md,md,Cheatsheets,no,Valid source file
+CHEATSHEETS/dp-patterns-cheatsheet.md,numbered-folders,774,21f5a4dc00c8378ec12ab27938d969de9f37e4c29fdd6e06fac77c2c4c3afb65,md,md,Dynamic Programming,no,Valid source file
+CHEATSHEETS/graph-algorithms-cheatsheet.md,numbered-folders,798,adc90a037f0e9ac0f67105f6c5fed7f660aee79803a72cf7d5c94dab6262e2c7,md,md,Graphs,no,Valid source file
+CHEATSHEETS/interview-last-minute-revision.md,numbered-folders,809,528078e8465694fe50632465af06c6554a389512ef021769d48117d47046d001,md,md,Interview Prep,no,Valid source file
+CHEATSHEETS/recursion-cheatsheet.md,numbered-folders,767,86125427033910842b72a166cf4bf91fa85be8eb698daf46475d827dcc5d79c5,md,md,Recursion & Backtracking,no,Valid source file
+CHEATSHEETS/sorting-cheatsheet.md,numbered-folders,747,b27257ecb8e9bb69dd33eca857deead638ae3283d9cb95eeff4b4c1eb59b8320,md,md,Sorting,no,Valid source file
+dsa-main/.gitignore,dsa-main,148,953a38311f58026005b2e56825be129d56a20f7814af39c91f87e557fbde6ff7,no_ext,other,General DSA,no,Valid source file
+dsa-main/10_remove_Occurence(a).cpp,dsa-main,1262,dde437a788e66c9ce0b3722c4d68c431d9bc6d0654076e10dcf2c6304c7b0bb0,cpp,cpp,General DSA,no,Valid source file
+dsa-main/10sum_interval.cpp,dsa-main,1101,f1f7d13214bab1b54dd01d0964b60e9aa64fdeea80244f647e1ece056c38e56d,cpp,cpp,General DSA,no,Valid source file
+dsa-main/11_Matrix_muktiplication.cpp,dsa-main,1451,5a4b31207d5d27549561bb03847f2774255a832ed057e6ed227043d7f72b1e18,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/11_Matrix_muktiplication.exe,dsa-main,82555,61e2b51bfd3913a3d50ba0965cb293a081a32964d81aeebed238d7691400204f,exe,binary,Arrays & Strings,yes,Compiled binary executable
+dsa-main/11_Palindrome.cpp,dsa-main,1595,a8ebb2e57af3e86fd26fdb5649564d1096737bf8c492ddd6da7f9771476ba652,cpp,cpp,Strings,no,Valid source file
+dsa-main/12_printing_numbers.cpp,dsa-main,1151,2e3a91dccc91a8fc1b007d2c410ca21b494ebd2b96c3c39e155148b9b0dc3959,cpp,cpp,General DSA,no,Valid source file
+dsa-main/13_k_Multiple_of_n.cpp,dsa-main,991,14d96b64cd15110dec8fe36986a2cd4f2b670c97cb02312106ad7d8d378aff0a,cpp,cpp,General DSA,no,Valid source file
+dsa-main/14_sum_of_natural_num_with_alternateign.cpp,dsa-main,768,f6f5fddc12131f84eaa864c4c46b6a4f595e5da0c1f5be7c9889aa84b4a4d53b,cpp,cpp,General DSA,no,Valid source file
+dsa-main/15_GCD_recursion.cpp,dsa-main,437,4be62f8b0a27e5b350ad2ce231c8b0da2e1878b41b87225317d7e544aa7ffd53,cpp,cpp,Recursion & Backtracking,no,Valid source file
+dsa-main/16_Armstrong_Number_check.cpp,dsa-main,1048,2a5c48630fa1818f2b30f860134de3c37c06c9f0d50be82c7045978262843a60,cpp,cpp,General DSA,no,Valid source file
+dsa-main/17_Frog_jump.cpp,dsa-main,1014,dc07aa0960d64dd6343bb30eadc1d9744a0ffc9f2b6e29dee09c348c3ce1b783,cpp,cpp,General DSA,no,Valid source file
+dsa-main/1_basic.cpp,dsa-main,421,bf7fe2d3826a9fa710a40e9915751380d381bf0d48885529cc43ee53b257add5,cpp,cpp,General DSA,no,Valid source file
+dsa-main/1_factorial.cpp,dsa-main,249,5ba2e677022ffd5f8332d928bd37c6dc088afdd4f70b8be269a513db3c1dfbfd,cpp,cpp,Recursion & Backtracking,no,Valid source file
+dsa-main/2_valueAtAddreaa.cpp,dsa-main,464,29bbce1d007c4da3361ffe21202beb904ae87b54c7a8921b9b6b69f0bd1a282c,cpp,cpp,General DSA,no,Valid source file
+dsa-main/3_updatingValueUsingPointer.cpp,dsa-main,633,87993fee859b62e6957da702e9819ded4da54e1e29abb78713a2e95d406d3792,cpp,cpp,Prerequisites & Language Basics,no,Valid source file
+dsa-main/4_recursive_sum_of_Digitts.cpp,dsa-main,246,b40b1c8934707faaa571e73bde31e65b4266a54a869d6ee484d5e367ec4fd56e,cpp,cpp,General DSA,no,Valid source file
+dsa-main/4_swaping_value.cpp,dsa-main,1125,c3e9cd953486367e075560c48fd6e2156802957e74ad8b134317216bfc6a391c,cpp,cpp,General DSA,no,Valid source file
+dsa-main/5_firstAndLastOccurence.cpp,dsa-main,1281,e48bd61031585bdbad5825a979d0226e769345c3c4d9ccf7498f00896d423b4e,cpp,cpp,General DSA,no,Valid source file
+dsa-main/5_p_to_the_power_q_UsingRecursion.cpp,dsa-main,187,141ce1424124c1787157713d2fc90c6d143560256b3f2865201e9d745acfc202,cpp,cpp,Recursion & Backtracking,no,Valid source file
+dsa-main/5_sort_zero_One.cpp,dsa-main,1217,cd8b563ca7732c99f3c5a762b91bb6ab1aff7055eef0d2fbdaf8627d411ff163,cpp,cpp,Sorting,no,Valid source file
+dsa-main/6_IncrementDecrement.cpp,dsa-main,1250,973175061a89f38bd9cc6bf6c38f2a1e105d410d49193743e31dcf0788329021,cpp,cpp,General DSA,no,Valid source file
+dsa-main/6_even_int_move2.cpp,dsa-main,1227,9b7f08adaa140d9f4e72ee4860ae91fb3f92bce91b08b24326e8ffa8034fae99,cpp,cpp,General DSA,no,Valid source file
+dsa-main/7_array_recursive.cpp,dsa-main,1084,50fa35ea0492dd44a8d4fb39a950c57f91a2b39d60d83f42b6a1c400ef6add15,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/7_prepostArithematic.cpp,dsa-main,404,969d301c3dace813d4bbc8fa60e33932adcfe899f39c621316aa0928d1562690,cpp,cpp,General DSA,no,Valid source file
+dsa-main/7_sort_Squared_array.cpp,dsa-main,764,7c52d1677377bb1edbd91cbce0f5895abf40d49b7a143854ec6ec811bf8bd786,cpp,cpp,Sorting,no,Valid source file
+dsa-main/7_sort_Squared_array.exe,dsa-main,76575,a9eee257169b13fb9eaa11b056cda5da6cc3421f8ab49be1aadc52a17722f333,exe,binary,Sorting,yes,Compiled binary executable
+dsa-main/8_increment_address.cpp,dsa-main,0,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,cpp,cpp,General DSA,yes,Empty 0-byte file
+dsa-main/8_max_ele_inArray_recursive.cpp,dsa-main,1027,e88491e37501d172b6f23dfcf4cdca66687cd0a1d37281d86a9d0eed90279522,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/8_prefix_sum.cpp,dsa-main,1057,c5c29511088830c302c42beca744206b2bd42c1464cf2965477680314cdc6c6e,cpp,cpp,Prefix Sum,no,Valid source file
+dsa-main/9_check_prefix_sum.cpp,dsa-main,1554,b911e7202a49d1a0e9ed4dcbaf1656eb850de269970a6ad1cdb730165843a2f7,cpp,cpp,Prefix Sum,no,Valid source file
+dsa-main/9_sum_array_ele_usingRecursion.cpp,dsa-main,853,c082776f57b070fcfd7f79add92e52b9ef2c6290bebb771d29298323d648ae8c,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/Count_occurence.cpp,dsa-main,762,5b252ecc0186b427a0f1151f40b423a008fed81e6dda281bc752201fadc61143,cpp,cpp,General DSA,no,Valid source file
+dsa-main/LibraryManagement.cpp,dsa-main,6201,0971a5dd005975e49a2bca1b20a75ba5a9831b006f27ad8b1167cd108fc5bd3b,cpp,cpp,General DSA,no,Valid source file
+dsa-main/README.md,dsa-main,2431,cc09d5bc50676c6cd412f3253c1c942251b9b6e2e594c799fe6e8f3217c206b7,md,md,General DSA,no,Valid source file
+dsa-main/adding_removing.cpp,dsa-main,1641,070eae2327ff91ff1f3d0432c78f37d0e296499d53a79c933f24331403a3db92,cpp,cpp,General DSA,no,Valid source file
+dsa-main/adding_removing.exe,dsa-main,80124,021d6898a663ef5f4b23a6db98286c58bebb3977193225ebfe796da7c549ca43,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/arr_manipulation.cpp,dsa-main,1911,a2ce0f318b87d320ee1dacc76d27d0d102d21e7e44fed4e5a878059fc67b9ad6,cpp,cpp,General DSA,no,Valid source file
+dsa-main/arr_manipulation.exe,dsa-main,60588,ac9786f9443803b9af1af2be50406923a84ab66fb1a5631d1634bfe42d291c43,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/arr_manipulation1.cpp,dsa-main,1085,3e6ef418579cefe49e4cf787ee77a988a9a94833f1710b181f588623557a8545,cpp,cpp,General DSA,no,Valid source file
+dsa-main/basic_array.cpp,dsa-main,841,a1bfe45cf6598211339e9e7dfb85de1953ef8f8079f4f997a99933e33b0f2c85,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/build.bat,dsa-main,1057,0c06a029a9f4a5289aa4b034b64951af652ca0b8060e5e723469ba2a2ba0b4b9,bat,batch,General DSA,no,WebAssembly Student Record project batch script
+dsa-main/check_sorted_or_not.cpp,dsa-main,1020,3c817cf13efc78d6cf11d01a63bbd01d5367fc959f39fb6095a5cf4c297d583f,cpp,cpp,Sorting,no,Valid source file
+dsa-main/delete_add.cpp,dsa-main,491,ab97d1f9bdf30c50c11b6e12764410e68c985e3bb8b30a44cb0ec73d131440ea,cpp,cpp,General DSA,no,Valid source file
+dsa-main/deploy.bat,dsa-main,667,e7f0160a2ca2c831604200cf19aa19bf422c5a75fc42888b8998305f16193323,bat,batch,General DSA,no,WebAssembly Student Record project batch script
+dsa-main/even-odd.cpp,dsa-main,1653,40eaffa3f704a364ea9195f0a2f3ae513fb0e0210cc58a4ccec1cfa8255fca93,cpp,cpp,General DSA,no,Valid source file
+dsa-main/even_int_move.cpp,dsa-main,1149,e07433de8865c0090349eaceda09e48db35859bc68a70f5ce4fe606134a70082,cpp,cpp,General DSA,no,Valid source file
+dsa-main/even_int_move.exe,dsa-main,92627,f09d656f2cda22af528e0182ea2122f33b15e7b9b22e506dd80787fd9240026d,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/even_int_move2.exe,dsa-main,59450,1d203fcf7323b420b980e40daa57c3e2619eb0e524c7594f8c6ba74c4863bed3,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/frequency_query.cpp,dsa-main,3659,517a17b6d7819e5c2f96488803ad8667fe4e6a83bf463cbe4e4964e7bf4107fd,cpp,cpp,General DSA,no,Valid source file
+dsa-main/frequency_query.exe,dsa-main,59823,201aed238be318ffb51c92482e78a8a70df675de37f6efe9af3bbf8fad94f59a,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/largest.cpp,dsa-main,679,a6bf498d21434bbd5e1b04bcd19b81e8df1e41b9baf95e24f2963724aac3b237,cpp,cpp,General DSA,no,Valid source file
+dsa-main/largest.exe,dsa-main,62570,220910bcfa833892a005e718e8f79238659ad068b6bc3b360dde42c6ec9fc81a,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/launch.json,dsa-main,277,b1955573cdc690a34921fc7030568b9e254aee893b84a81272977c76173af91e,json,json,General DSA,yes,VS Code runner/scratch artifact
+dsa-main/linear_search2.cpp,dsa-main,789,61c3fbdddcd9e935aacaf81b1365340d3ea5acc58cbab5535186aedda84fb03f,cpp,cpp,Searching & Binary Search,no,Valid source file
+dsa-main/linear_search2.exe,dsa-main,44775,de76b89e6a78b88f7fd2b2c2e3cc75f0c046befc343f6408d034384588ed31f6,exe,binary,Searching & Binary Search,yes,Compiled binary executable
+dsa-main/linerr_search.cpp,dsa-main,1032,f5cd05d243aa35f0d598a38fd1b0c0f6e6c69208667695d01590d32ddb125bfd,cpp,cpp,General DSA,no,Valid source file
+dsa-main/linerr_search.exe,dsa-main,44458,b1f07c35cceff9df5db250903d721103ffb7a09f0784f549a0e28c9e50f6fee1,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/matrix_Transpose.cpp,dsa-main,735,8e40ce0e2fdd38ff83fc6f0f4539e355ebe45c29c3bf42f4860825e417a73089,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/matrix_Transpose.exe,dsa-main,79846,41ab5b2f89cc455dabd5a033a49661a4f7cfd02dd0b90408c4bed2a233cd2688,exe,binary,Arrays & Strings,yes,Compiled binary executable
+dsa-main/occurence.exe,dsa-main,57562,b4f895ce6d65f0edbfbbdcdaeed9bd313fa9ab3b27bea1301894d1d3676df459,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/printing_elements.cpp,dsa-main,667,9109a90293a009cde31e3349124ae284acdac6709c35e18d0003f8b018bc5035,cpp,cpp,General DSA,no,Valid source file
+dsa-main/reverse_arr.cpp,dsa-main,717,4c7534357aa003b131b5d02f24078c3613e0a5d6144da82feb969324544e96aa,cpp,cpp,General DSA,no,Valid source file
+dsa-main/second_largest.cpp,dsa-main,883,1cc0dd1c3f0d441d6144151d01b82af852aa4f58da7c0d20366800ab75d08b7e,cpp,cpp,General DSA,no,Valid source file
+dsa-main/serve.bat,dsa-main,146,890feb121159cf6db2a81918554e4ee3f519b92b217495c47dc676bce902b337,bat,batch,General DSA,no,WebAssembly Student Record project batch script
+dsa-main/settings.json,dsa-main,272,1d2d466c63542fe41dd3362dca7bb2d7e39909248d3424db520c6209f28b4544,json,json,General DSA,yes,VS Code runner/scratch artifact
+dsa-main/target_sum.cpp,dsa-main,1073,b71497e2ccf46f8e933e9f1321c77708aed2fbf4b173062b1bb66eca398267dc,cpp,cpp,Two Pointers,no,Valid source file
+dsa-main/target_sum2.cpp,dsa-main,1118,d1f277227a0f8aed73334f666666df6bd6310f0b0fdc38925d5122b1c34020fc,cpp,cpp,Two Pointers,no,Valid source file
+dsa-main/tempCodeRunnerFile.cpp,dsa-main,667,9109a90293a009cde31e3349124ae284acdac6709c35e18d0003f8b018bc5035,cpp,cpp,General DSA,yes,VS Code runner/scratch artifact
+dsa-main/tempCodeRunnerFile.exe,dsa-main,46002,095105364be8466e73443b3cb5bd4c3ed440ad5a5c3726c647534b08ea6bb774,exe,binary,General DSA,yes,Compiled binary executable
+dsa-main/user_input_vector.cpp,dsa-main,906,b575ca323f872a5324d82b0c1696d1cdb7e89ffa943143df827b6975cb7341b7,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/user_input_vector.exe,dsa-main,67681,78bd22bd714c390a0021eada99728d467dcb1000bac27ac8180946319dba61c4,exe,binary,Arrays & Strings,yes,Compiled binary executable
+dsa-main/vector_basic.cpp,dsa-main,818,76293cc24f2e92b11048bd4644cdf26b71ffaf6d5f23847cc6fe654b2197d574,cpp,cpp,Arrays & Strings,no,Valid source file
+dsa-main/verify.bat,dsa-main,1799,8cffca6dda0427d3d4284d7f6548a52926b24a7374ab2823853cf2859f492249,bat,batch,General DSA,no,WebAssembly Student Record project batch script
+DSA_ac-main/02_Cpp_Control_Flow_Conditional_Statements_DSA_Notes.md,DSA_ac-main,28649,316b95b4e624646450239819564d1533d9c107aa137cc0ca4fed6586cd53d995,md,md,General DSA,no,Valid source file
+DSA_ac-main/C++ Fundamentals for DSA.md,DSA_ac-main,26401,4fc78c7d436fdd98b12b0101d03571beed6f86990712d53f843e96275b872131,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_ac-main/README.md,DSA_ac-main,8,b2a556e565eaf50f6f336b254f4a4a1ee55da8b856eeed17ffead04e403202f8,md,md,General DSA,no,Valid source file
+DSA_ac-main/Array/01_Arrays_Complete_DSA_Notes.md,DSA_ac-main,39079,bdedb4a65a0930f139ebd3a05312ef9951213547fbc42f22ecf0888818045ad7,md,md,Arrays & Strings,no,Valid source file
+DSA_ac-main/Array/02_Cpp_Vectors_and_Advanced_Array_DSA_Notes.md,DSA_ac-main,40875,0af4bb902ac8eea4dca1c1d3b1362b514e39ce349e81dbf00ec33849b503e5e0,md,md,Arrays & Strings,no,Valid source file
+DSA_ac-main/Array/03_DSA_Pair_Sum_Majority_Element_Brute_Better_Optimal.md,DSA_ac-main,26463,4b81e121be9ec1531b5167a2403f41194cabacbfd007b124011d16e9c9b4f2f0,md,md,Two Pointers,no,Valid source file
+DSA_ac-main/Array/03_DSA_Time_and_Space_Complexity_Notes.md,DSA_ac-main,17800,2eb5e3f616c118c9c6d369f04f021a05d0adc6444363a6328bb15b21300fcbfb,md,md,Complexity Analysis,no,Valid source file
+DSA_ac-main/Array/04_DSA_Binary_Exponentiation_and_Stock_Problem_Notes.md,DSA_ac-main,13027,0c451a8e6c0ded0fa27cc0deeb03917d1066875a14f24a0d22df12e745ef4aa1,md,md,Arrays & Strings,no,Valid source file
+DSA_ac-main/Array/05_DSA_Container_With_Most_Water_Notes.md,DSA_ac-main,10668,55297692dc2455bca711d74a89c15bb6ef9510a10c2f944b3f79219d10d01022,md,md,Arrays & Strings,no,Valid source file
+DSA_ac-main/Array/06_DSA_Product_of_Array_Except_Self_LeetCode_238.md,DSA_ac-main,16956,7f7ea366259e1c6a5345c0416c0bf767d412b7722979d9c160ba836bb2a5f79c,md,md,Arrays & Strings,no,Valid source file
+DSA_ac-main/Array/07_DSA_CPP_Pointers_Complete_Notes.md,DSA_ac-main,42545,8156c53d15e3f247ea8635b88db5954c10b9e3f5400f8cdf0191d3c35d22525b,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_ac-main/Array/08_DSA_Binary_Search_Complete_Notes.md,DSA_ac-main,26085,f295dc66e8ff51c789f60b809426185e73205eb8bd3492dfa6bb661620027971,md,md,Searching & Binary Search,no,Valid source file
+DSA_final-main/README.md,DSA_final-main,11,3e728becb36bb2a527b638216b0d0491cfd97d26b1fd15092b3f70cdbdc87382,md,md,General DSA,no,Valid source file
+DSA_final-main/commit.txt,DSA_final-main,162,6a2b5dcea3e6f52e12b7efb0bc4b1198259fa8b8918c11c860714712a17e6962,txt,txt,General DSA,yes,Temporary git push instructions
+DSA_final-main/index.html,DSA_final-main,8453,e8e796bdcaedf83b1e75ad44ad35ee2e5b91bb44f9641691932fb46debffa51f,html,html,General DSA,no,HTML form tutorial demo (non-DSA)
+DSA_final-main/01_Basics_Of_Cpp/01_introcution.md,DSA_final-main,6763,c13173533b6ea7bdd846e88705796c34e1ecca2cd1f06c37568edb99b9618510,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/02_Type_Casting.md,DSA_final-main,3786,02e1285851b064c810f105bc2f1a2be6253b7cec97eeea80b149b98cfad73f9f,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/03_Operators.md,DSA_final-main,4829,172f78d6dffffb4c463c6a211276e3dee625e1c6098f2429fbf0bc93c0922539,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/04_Conditional.md,DSA_final-main,6794,537754d79a90203060563a720b9852989440e18f4bb7a42004ab2abe6cf8d437,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/05_loop.md,DSA_final-main,4923,22e50c35fb186b7e42a4b130dab62432df8ea670ce3657c0e847c553d9ba9754,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/05_pattern.md,DSA_final-main,9667,8444b2da36fccf3b80a9a69694fb8b38613ab0be30c62ead0f3e6ed900e3a9bd,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/06__functions.md,DSA_final-main,6357,9e5bb2cafe4f8b27cf166d31f51d31ded4d6cad09bc701b40eb7f0d150899a28,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/06_functions.cpp,DSA_final-main,1715,0d377fa28648e5e32b9beb5274f32fd5e03494b6cd4a20b2888f0a1bbc8941ab,cpp,cpp,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/07_BinaryNumber_system.md,DSA_final-main,7468,b2d9565e6f590477643549ea077fb96de648046006832cf0bcbd59b382d3655a,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/08_pointers.md,DSA_final-main,19850,4ba5e028894caa46aa2ab9d3217952dd8cea3c1c0d7686405fd43676ca6fcfac,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/01_Basics_Of_Cpp/operators.cpp,DSA_final-main,4154,0f465a8dc9c7753192e72193d2085fb3deeae65c94efa3e36bae4a43da579d5c,cpp,cpp,Prerequisites & Language Basics,no,Misnamed: markdown text inside .cpp
+DSA_final-main/02_Arrays/01_basics.md,DSA_final-main,15220,d679db1f379f098e6ec750f0f89cd3b5e91e92d1c9a05092dce3697bc4e43782,md,md,Arrays & Strings,no,Valid source file
+DSA_final-main/02_Arrays/02_PassedByValue_and_PassedByReference.md,DSA_final-main,11440,603056d1fc1432a911bd1b3595b6b51f81a0aa7f41c03fc8bf1c5c678a0394dd,md,md,Arrays & Strings,no,Valid source file
+DSA_final-main/02_Arrays/03_Binary Search.md,DSA_final-main,9190,3101512b74b58be3ce0080fe5de301d559d88ec4c15da52a9a2bddd2b695e22b,md,md,Searching & Binary Search,no,Valid source file
+DSA_final-main/02_Arrays/04_Pointers_and_Arrays.md,DSA_final-main,6244,d9a44d54950066f7ed5eb5122161ca847f3b56609e80334ff023c5661b22236f,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_final-main/02_Arrays/05_Subarrays_and_Kadanes_Algorithm.md,DSA_final-main,3146,728dbb66201fa7b7e48f33a28e7a37b0f547c9e4699c5df1d991921a5325fc52,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/CLAUDE.md,DSA_server-main,12,17c1be888e2a8e97c7334af943c61fdaac3c4df9cd68e6010b952f437aecc102,md,md,General DSA,no,Valid source file
+DSA_server-main/DSA-MasterCourse/README.md,DSA_server-main,14140,90029ffb1aa0bbb7deb00e8b19099cfa59d210fffdd0612b27392b4e32282ae7,md,md,General DSA,no,Valid source file
+DSA_server-main/DSA-MasterCourse/ROADMAP.md,DSA_server-main,19455,4635cb87305433a90460146b16bf685f07f003c57bbfdbef1bf06cdcb9299b80,md,md,General DSA,no,Valid source file
+DSA_server-main/DSA-MasterCourse/STUDY_PLAN.md,DSA_server-main,24612,9648dff81d4ec99e4fd915ba645f7b5584e2f816dbff8914d9d5574f489585fa,md,md,General DSA,no,Valid source file
+DSA_server-main/DSA-MasterCourse/status.txt,DSA_server-main,2416,3f8859d8a14b52717d474794019ef0c54145fa216254f5b799a6d4ab10fe7c58,txt,txt,General DSA,no,Valid source file
+DSA_server-main/DSA-MasterCourse/00_Prerequisites/00_mcqs.md,DSA_server-main,13416,56dc368cdec9c038d61e48f3b91cdb5ec11d2119ca8b3b863e1816c2f284e202,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/00_Prerequisites/00_notes.md,DSA_server-main,34585,8c4210da9effa5de8005e5fe80889d8824f1da4936b27c7510e109ef00b4aec5,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/01_Complexity_Analysis/01_mcqs.md,DSA_server-main,12865,3e1cdc6a2f064ea7a5f46d0026cb4ab90e00f7e12d1c0a7a65c4e273b4778705,md,md,Complexity Analysis,no,Valid source file
+DSA_server-main/DSA-MasterCourse/01_Complexity_Analysis/01_notes.md,DSA_server-main,21682,2c613cf1fdf3ac838f8212db3f421b063647fc3652e19852d9d9486dddfa86c2,md,md,Complexity Analysis,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/ARRAY_MASTER_NOTES.md,DSA_server-main,30011,edfd4902a455544cbbc3fde5525d00f2730e2ce1eccf2ef237c0c3650bfc4127,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/PROBLEM_INDEX.md,DSA_server-main,20413,839aaeec4340aea83c76d979daa7ac053941d2db5b1a734db495855d5a3be940,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/README.md,DSA_server-main,20640,24c68fa8655815df99951fb74c21844b05ac49ed86eebeed731afa4c358a0505,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/REORGANIZATION_COMPLETE.md,DSA_server-main,7782,5978a63915b11404ff90f478001a25594ccfe3c696bcf5ef441063fb9046db0c,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/01_Array_Basics.md,DSA_server-main,12982,8bd624dc3ffda238785bd51bc7643bd958ad4f3f15afbf22fcaace777890e2d3,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/02_Memory_Model.md,DSA_server-main,11563,416db16b80135f723cfd710939500615e03de2cc97db5ce91df121aa222badba,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/03_Operations_Complexity.md,DSA_server-main,3333,f42284bd43c50d7d197f11efba3be45e4fb207ed74424a8f42f7daa7d71cda88,md,md,Complexity Analysis,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/04_Vector_vs_Array.md,DSA_server-main,7126,0fc02a1c2a00a1c444988abf6d0722099e7d76a648a522c4c6cb8b8339042cce,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/00_Fundamentals/05_Easy_Problems.md,DSA_server-main,31804,7c64a7e8e2003d08e012f821c3baabf3aac8f076e63f3252728a3983ec288fe7,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/01_Two_Pointer/Mistakes.md,DSA_server-main,6586,fe4e29441371d4e870e0809c6c30ef2db38e755d6fcb0be71e9d87eef0cc30ff,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/01_Two_Pointer/Notes.md,DSA_server-main,8098,8261d73a6cbd9cf85c8b35aa2b0a152d689ffd4fe35938dfa597e4934f7f4a14,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/01_Two_Pointer/Patterns.md,DSA_server-main,5334,eb5e8edd7ebafe295dc56cb4059fad33bef46048642faa0b6b3f8c15bc8298c3,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/01_Two_Pointer/Problems/Easy.md,DSA_server-main,9600,42b8bf69b797aadca536038e6c182ab6ba6a47f1da27955ddc4631528b33fdc0,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/01_Two_Pointer/Problems/Hard.md,DSA_server-main,12798,d64628e7f90cd86d3534cd106676b65e609d4396022148b39d620539c6a2c6b2,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/01_Two_Pointer/Problems/Medium.md,DSA_server-main,11386,8f0992337610ba1e4329f8512d9c305cd1ef3efc6621cf596e5d2db5091d5ef9,md,md,Prerequisites & Language Basics,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/02_Sliding_Window/Mistakes.md,DSA_server-main,5291,9e82fd34c0d1422d754c1e70a4c268d636816da59f779b48fc4bbc3e18adfab5,md,md,Sliding Window,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/02_Sliding_Window/Notes.md,DSA_server-main,10493,ec86f11b916346729ba8df9c43e679bdec441000182ab5ccac5c92dd34837b85,md,md,Sliding Window,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/02_Sliding_Window/Patterns.md,DSA_server-main,6146,45f4e0f530e7cfdadfd4057d094cfdead01e597dc4141ffd54991d9f0f6eea06,md,md,Sliding Window,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/02_Sliding_Window/Problems/Easy.md,DSA_server-main,6613,c0dfc105c0a726f4ece9cbaf2228f70c9f6191567052412b8bf44fa330829c64,md,md,Sliding Window,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/02_Sliding_Window/Problems/Hard.md,DSA_server-main,5126,33867254e11ff5b1f61fdc2200dd775bef8053273cbff7f8a253a284e66083d0,md,md,Sliding Window,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/02_Sliding_Window/Problems/Medium.md,DSA_server-main,9112,aeff3d21fdf31c8906d90b91451b24da3b6d88818a0e05fbe818a6a0ccf3f7b4,md,md,Sliding Window,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/03_Prefix_Sum/Mistakes.md,DSA_server-main,4497,fa216d1b2bf237b2fb143957aa30f25eb2d95e707eff44cf6b0c2757dc720ced,md,md,Prefix Sum,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/03_Prefix_Sum/Notes.md,DSA_server-main,9226,13b8e7df0208ca85780e8d57f657f26257703bba047d4aa41b3d32e5fd261739,md,md,Prefix Sum,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/03_Prefix_Sum/Patterns.md,DSA_server-main,5578,f9325be32c941e9533bdaa0f1993795d673c839053f44fefad96d1b851336ba5,md,md,Prefix Sum,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/03_Prefix_Sum/Problems/Easy_Medium.md,DSA_server-main,9080,1cc4e8eb2ca32e838b934c081f11bdd0f33542e2e176962cba449e3c63490745,md,md,Prefix Sum,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/03_Prefix_Sum/Problems/Hard.md,DSA_server-main,5374,b424cbcbf79046a053913890e865b9104d89ef3633286e21d5d87a5d549816be,md,md,Prefix Sum,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Mistakes.md,DSA_server-main,1147,f03d4d8766f8366ed6cac698dd8d33823cd2c7d1a958af2d4bb807228787a679,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Notes.md,DSA_server-main,10984,10dac7381f2cde928e648a2dada80bda1f581c591409d92364df6b4cf3bd964c,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Patterns.md,DSA_server-main,2069,6e5e3841962b1626552006313dea3aa54719eb7d44166fcbcebe98df99182c9e,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/04_Kadane/Problems/Medium_Hard.md,DSA_server-main,5034,fe4f0205fed58d8760fa6c36df3e54cf9e10105cedfd0364231bd205e69b1ef0,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Mistakes.md,DSA_server-main,1432,378491a27a017f80103bdcb3bd2267ee1ee241e1c151b97b53870d49787d6298,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Notes.md,DSA_server-main,20385,52a2ea73c4da7044ec3690b984065e2ab39648ca11f35573d4a5b9fc6b7f9bd3,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Patterns.md,DSA_server-main,13654,50c59b9c88c641c59f77da501636adeb733e77d78fe2c5a6585ece6db0fe2d96,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Problems/2D_Arrays.md,DSA_server-main,12518,e37fb782f8c52daa076a46be1c8d001098d7cc5f6fac91e14df20787a06e5f9c,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Problems/Easy.md,DSA_server-main,13215,cc3535aa91cfd356cbb9abae42c013d7ca83e0d26469cbb8c702d54c52b4b14a,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Problems/Hard.md,DSA_server-main,25997,fed7315bd9b327682384fd991a736bbb14c4e7fb109e64ea494f85333b298a8e,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Problems/Medium.md,DSA_server-main,21341,d2c7664ca85c5839d4d57769745427388f48817b0b267d8a60b3ab6db2f4832f,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/05_Binary_Search/Problems/Medium_Hard.md,DSA_server-main,5823,c1f092328800d5f147d1947e11a9447aadf8d873a37c1947cada544a5798bee4,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Medium_Problems/Complete_Solutions.md,DSA_server-main,20071,755296e8efbbfdbe88d280b274675e429c8c874a132254cad9897ccedea163bc,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Vector/Mistakes.md,DSA_server-main,5144,6e71d6a2f5904b70c783935b8d575f01de3651652e4053827f86f6166c19ac4c,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Vector/Notes.md,DSA_server-main,10766,33e729373f3807ee5bf12c618c62df0177e805e5020ef379dc29c978198259d4,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Vector/Patterns.md,DSA_server-main,3078,cca7e1130870aca9d57db3b611631e8f41f8efbef3137d7282443064fb0b08e0,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Vector/Problems/Easy.md,DSA_server-main,4574,fc4feb54703052969afea6e77ada7c98f33e5d9f384933e77c716a90ed5ead86,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Vector/Problems/Easy_Medium_Hard.md,DSA_server-main,7496,8955f9d2a97470fec06fa73dbb4381d49d8b7c25496a0259d2d1fa60573d09b2,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Vector/Problems/Hard.md,DSA_server-main,6859,a3a529e874a0d6e867a6e158c0f159d1bb3be0f2ba10ed8359af5b3b85e75cf4,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/06_Vector/Problems/Medium.md,DSA_server-main,6438,0d2a83c2123ceda52875c91d6f7fbc0def629ca58671bda029fa0be8d3485de4,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/07_Hard_Problems/Complete_Solutions.md,DSA_server-main,13614,365daea4de3b172991a86e2936220cca275434b0c083ceef31f98cb7d2b260d2,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/08_Pattern_Recognition/Complete_Guide.md,DSA_server-main,8224,0d4bec5b52bc75d7fafc56f9e5f404064b5f1dd837433f513f90ff919f49bcb4,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/09_Common_Mistakes/Complete_Guide.md,DSA_server-main,8717,b8a8264b6745ea5f9a3b9767e7bb7a105eedcdde52827ae2212062097aa0cece,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/10_MCQs/Arrays_MCQs.md,DSA_server-main,7851,7f8a36697d81d861adbcddf49ef8055b8172cf86bd94774f58dc492652255319,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/02_Arrays/11_Interview_Prep/Arrays_Interview.md,DSA_server-main,8733,b28066668876fa5d2fb0c596cb69493fc166cc8ad19714744cadcaccb654463e,md,md,Arrays & Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/03_Strings/03_mcqs.md,DSA_server-main,6247,635321f7bc29d826e6d6996cac3f32b7026ed8a5e407df569a07ed8917eb6f6b,md,md,Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/03_Strings/03_notes.md,DSA_server-main,27037,8c7c5006f029cb06088d009bb4a74e0cf79ea60cf29d9d707fb6a7b10134009c,md,md,Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/03_Strings/code/basics.cpp,DSA_server-main,3848,359ead2de0acb042d0d0a7ec6b4c85e56f9dda7c143b31e6e61c6a70a2f3234b,cpp,cpp,Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/03_Strings/code/pattern_matching.cpp,DSA_server-main,3745,a756477b3fa3fa2e98bb7973d7a70401309372e07a070d8af4d6c726f1c51243,cpp,cpp,Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/03_Strings/code/string_manipulation.cpp,DSA_server-main,3615,90cdcd0249dba2a455ed29ba11a5209436aefd1d0c6b97fbd0be0ba0c1878405,cpp,cpp,Strings,no,Valid source file
+DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/04_mcqs.md,DSA_server-main,6988,ad5659c64d50f9f258e2e47294db0f07e96e92b3dfd2a03ad46388191e9a4a0e,md,md,Recursion & Backtracking,no,Valid source file
+DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/04_notes.md,DSA_server-main,26380,478f0c88ba76bd6c3225b7422b93b15998ee6a600f6b439704eb706bc09858e0,md,md,Recursion & Backtracking,no,Valid source file
+DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/code/backtracking.cpp,DSA_server-main,4673,0cd448ca401f35ced8bbec0efed7a9f2db8843715c190476cbed5388101222c0,cpp,cpp,Recursion & Backtracking,no,Valid source file
+DSA_server-main/DSA-MasterCourse/04_Recursion_and_Backtracking/code/basics.cpp,DSA_server-main,2982,599c1a3e6c23bc8a9a0a8c123c43732e8a1b117a0ee9af02b0c340b2f28f03f4,cpp,cpp,Recursion & Backtracking,no,Valid source file
+DSA_server-main/DSA-MasterCourse/05_Sorting_and_Searching/05_mcqs.md,DSA_server-main,5567,917384222119d7931c914fe01959f9e1a19bfeb129f8cbe4496e3337106a787b,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/05_Sorting_and_Searching/05_notes.md,DSA_server-main,14704,8da11f6c6a7a93dfd4545b2a886eeb7ad6b23e2f94a432761cd8ae57a76e0a91,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/05_Sorting_and_Searching/code/binary_search.cpp,DSA_server-main,3304,1c51711dfc0a136a4a7be3a93735a7f7f7bd481430698e13b0b8ca5cbf34aa60,cpp,cpp,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/05_Sorting_and_Searching/code/sorting.cpp,DSA_server-main,4511,f0a810f57d363985ee2727bca3854a43a471a38d8f008d37a6ef34e10e06491f,cpp,cpp,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/06_Linked_List/06_notes.md,DSA_server-main,11646,a2185f6dfb1a34734f5de3a0d40e6ab631e8f17546b2c956c9dfc8f09c7426ca,md,md,Linked List,no,Valid source file
+DSA_server-main/DSA-MasterCourse/07_Stack/07_notes.md,DSA_server-main,8655,b8a471cfa55d94df61c5e028088cd4a5eea58d9265aca949359498f6c30deaad,md,md,Stack & Queue,no,Valid source file
+DSA_server-main/DSA-MasterCourse/08_Queue_and_Deque/08_notes.md,DSA_server-main,6522,730101eae6d564dcc526657c0a7480910711cc5b7577c7982baa8055e20d7232,md,md,Stack & Queue,no,Valid source file
+DSA_server-main/DSA-MasterCourse/09_Hashing/09_notes.md,DSA_server-main,8567,ad19bb52085768537c1b8861322ad0ebe009883aca3a121c98770f1f64571551,md,md,Hashing,no,Valid source file
+DSA_server-main/DSA-MasterCourse/10_Trees/10_notes.md,DSA_server-main,6818,5de408805ff8dbafa9f841e17562d1fcc5885250bd54e3345b782bcd4031ac39,md,md,Trees,no,Valid source file
+DSA_server-main/DSA-MasterCourse/11_Binary_Search_Tree/11_notes.md,DSA_server-main,5608,2fb418286ef7707282af17259b5f183e0b43bfb0c1a9ee79e85be7e74ccb427f,md,md,Searching & Binary Search,no,Valid source file
+DSA_server-main/DSA-MasterCourse/12_Heaps_and_Priority_Queue/12_notes.md,DSA_server-main,6236,f3c2dc9a7055e5b06d0d36bd50b5b9b6a97b16099b5f3dcc2adbcc72c445ee61,md,md,Stack & Queue,no,Valid source file
+DSA_server-main/DSA-MasterCourse/13_Tries/13_notes.md,DSA_server-main,7172,09f922633c066063722ca3c7d016cc70474d965714348bdadbe225424c9ebde7,md,md,Advanced Data Structures,no,Valid source file
+DSA_server-main/DSA-MasterCourse/14_Graphs/14_notes.md,DSA_server-main,8053,c3a947d8f2713803ced44a7418b6889ed37dba6be250dda14100da315f3fd434,md,md,Graphs,no,Valid source file
+DSA_server-main/DSA-MasterCourse/15_Dynamic_Programming/15_notes.md,DSA_server-main,12281,08b8fda50ee43f8dd4fae10edf0f727ed584235cb6f9bfc352af0c5e22249b54,md,md,Dynamic Programming,no,Valid source file
+DSA_server-main/DSA-MasterCourse/16_Greedy_Algorithms/16_notes.md,DSA_server-main,6803,57563b507e89efad38fa76d104321a38d4375d14831a48b14c24208cd7b67f22,md,md,Greedy,no,Valid source file
+DSA_server-main/DSA-MasterCourse/17_Divide_and_Conquer/17_notes.md,DSA_server-main,8258,e80618bd7dbe43dd71c9128aaf5151c4d2c1e999aae79799e6e8e3005221e0d1,md,md,General DSA,no,Valid source file
+DSA_server-main/DSA-MasterCourse/18_Bit_Manipulation/18_notes.md,DSA_server-main,6032,ce17ffd47a874b0c52ecda81658a6133f25bdd6d04441a5399229067f4a6ca25,md,md,Bit Manipulation,no,Valid source file
+DSA_server-main/DSA-MasterCourse/19_Segment_Tree_and_BIT/19_notes.md,DSA_server-main,8011,26988635afe6ff30bb1f03a3b77436b07541b7c7562d8e271d166128d3e06ad0,md,md,Trees,no,Valid source file
+DSA_server-main/DSA-MasterCourse/20_Advanced_Graphs/20_notes.md,DSA_server-main,7859,68034558b1ef587518953f9d7bea5931e221472bd4f97904bda4521dcd174ad0,md,md,Graphs,no,Valid source file
+DSA_server-main/DSA-MasterCourse/21_Advanced_DP/21_notes.md,DSA_server-main,7128,c18a67c13cdf3baa8c3864397d245cee736066140249cc279db113f3c5142fac,md,md,Dynamic Programming,no,Valid source file
+DSA_server-main/DSA-MasterCourse/22_Competitive_Programming_Extras/22_notes.md,DSA_server-main,6610,eab4813d3c7106292a6379c502a29388ce5a787370ac2ccccddc80e324e14525,md,md,General DSA,no,Valid source file
+DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Adobe.md,DSA_server-main,1290,d961e87b695697f99d5c4e6b063ceb6dada4103b6ea00e552aa8bf41fc697d1a,md,md,Interview Prep,no,Valid source file
+DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Amazon.md,DSA_server-main,4217,76959ca919e947a2384a2722de1be9c875ff47bfbf7e4da353b97b8c36c60e5c,md,md,Interview Prep,no,Valid source file
+DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Flipkart.md,DSA_server-main,1354,103130b45983f869b651cc57977607e00d2e57d3fa0e0becc1c97005cf0baee5,md,md,Interview Prep,no,Valid source file
+DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Google.md,DSA_server-main,4058,4c92eeecc4e06db0014af6844b6c42376995eb56bb908fd0dd5ab340716ad2ab,md,md,Interview Prep,no,Valid source file
+DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Meta.md,DSA_server-main,3933,51d40fca2a36806c196381d4655d8026c4b509738af0dd8a963e1d5cff2897f8,md,md,Interview Prep,no,Valid source file
+DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/Microsoft.md,DSA_server-main,3424,bde3382184356624ec73a0f23228edd5b088194412d5c2f9bcf71a6fe84ae0c0,md,md,Interview Prep,no,Valid source file
+DSA_server-main/DSA-MasterCourse/23_Interview_Questions_by_Company/TCS_Infosys_Wipro.md,DSA_server-main,1179,de974e711755ea450d904f1da08808dfca5bc16a2a5883f467acac80ad256c67,md,md,Interview Prep,no,Valid source file
+Summer_pep_DSA-main/00-Start-Here-Basics.md,Summer_pep_DSA-main,15880,0791a932d076c632e3d2e492bc904aaa9f13a061cc00fb0ec787e5a63c819ef4,md,md,Prerequisites & Language Basics,no,Valid source file
+Summer_pep_DSA-main/01-Git-And-GitHub.md,Summer_pep_DSA-main,10312,a476f90886c8f4bbecc69da477ae22a98fe0fa137c5d5e3d25fe0ee5aea35b94,md,md,General DSA,no,Valid source file
+Summer_pep_DSA-main/02-Arrays-Basics.md,Summer_pep_DSA-main,15682,9af62db06b521326a843ad9d59f5e258a29d291f688cb0f3acb7354dc07f02b4,md,md,Arrays & Strings,no,Valid source file
+Summer_pep_DSA-main/03-Two-Pointers.md,Summer_pep_DSA-main,15859,91401867827d73a01266c36c087ed79b7daba8222c680115ef90108180d2089c,md,md,Prerequisites & Language Basics,no,Valid source file
+Summer_pep_DSA-main/04-Binary-Search.md,Summer_pep_DSA-main,18180,29ec8dde83b4d3f0719c76f88c0edaffc598dadc8bf8a1015ca268daafefac70,md,md,General DSA,no,Valid source file
+Summer_pep_DSA-main/05-Strings.md,Summer_pep_DSA-main,15152,cff1d5afbd629554c23082aa3ceac24809026d8f5c5ae110ec2aaac8d6283392,md,md,Strings,no,Valid source file
+Summer_pep_DSA-main/06-Recursion.md,Summer_pep_DSA-main,16148,95becd36b765df6c6bdb078e4d59b672d2573aa3a101a30cd91467cac01bf47f,md,md,Recursion & Backtracking,no,Valid source file
+Summer_pep_DSA-main/07-Hashing.md,Summer_pep_DSA-main,16347,42ab3ed60c36edac9bd6cecf465fb349703f281857a8470afd2684f43bcda9d0,md,md,Hashing,no,Valid source file
+Summer_pep_DSA-main/08-Prefix-Sum.md,Summer_pep_DSA-main,14107,20ed8efbd7b1a19e4fa7e95a713fd1f446ce51b2642e69ca580613650cb83164,md,md,Prefix Sum,no,Valid source file
+Summer_pep_DSA-main/09-Sliding-Window.md,Summer_pep_DSA-main,28828,d78e818fcd840636da4abc2a8b0b53d803644e5c2b924cca898c5fe2deb0d1ff,md,md,Sliding Window,no,Valid source file
+Summer_pep_DSA-main/10-Linked-List.md,Summer_pep_DSA-main,22707,ce9241ee9cd2ca9057195676cdc92cea8e05bf56ad45fcda75d0abfa81f2b579,md,md,Linked List,no,Valid source file
+Summer_pep_DSA-main/11-Stack.md,Summer_pep_DSA-main,35919,254423205ff7a6d77126ed77cfb638b9f91e0d4bcf6d0459008984a194760524,md,md,Stack & Queue,no,Valid source file
+Summer_pep_DSA-main/12-Queue.md,Summer_pep_DSA-main,36451,56042a7517943150b2882815773589af96ea5124b3ac2ae95ca89b4c4bb0b83e,md,md,Stack & Queue,no,Valid source file
+Summer_pep_DSA-main/README.md,Summer_pep_DSA-main,4200,e6af1630e0dec4a1c9a556d645c3d6fcac0d279301304481fef57712c1651be4,md,md,General DSA,no,Valid source file
+Summer_pep_DSA-main/Daily problems/Practice-Problems.md,Summer_pep_DSA-main,36467,959c00a29bec4a41cc0021956927077d66067d79aaba733b34d8d29f0fc931e5,md,md,General DSA,no,Valid source file
+Summer_pep_DSA-main/Language-Basics/Cpp-Basics.md,Summer_pep_DSA-main,9774,6e6c45d5bedec27680976c638fadbedfbdd7696afd2da2e6cc69ef0c87749316,md,md,Prerequisites & Language Basics,no,Valid source file
+Summer_pep_DSA-main/Language-Basics/Java-Basics.md,Summer_pep_DSA-main,11505,ad1cbe36749280e54baaff9517f1175d33c567293adc39826e096e5c7376df43,md,md,General DSA,no,Valid source file
+Summer_pep_DSA-main/Language-Basics/Python-Basics.md,Summer_pep_DSA-main,8968,afbd5dbfc65582f23094121df48a10344a913604d2b7333f06b4a14148ea6a18,md,md,General DSA,no,Valid source file
+Summer_pep_DSA-main/Language-Basics/README.md,Summer_pep_DSA-main,1631,64424ea485e4f2bd26020256f1e0f68d58b81999039b06bfc10926979e1bed07,md,md,General DSA,no,Valid source file
