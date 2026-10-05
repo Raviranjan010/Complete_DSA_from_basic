@@ -157,3 +157,7 @@ _archive/legacy-planning/04-EXECUTION-PLAN-AND-PROMPTS.md,04-EXECUTION-PLAN-AND-
 _archive/commit.txt,DSA_final-main/commit.txt,NA,Archived non-empty scratch commit commands in _archive/
 _archive/dsa-main/tempCodeRunnerFile.cpp,dsa-main/tempCodeRunnerFile.cpp,NA,Archived non-empty temp runner file in _archive/
 _archive/dsa-main/.gitignore,dsa-main/.gitignore,NA,Archived sub-project gitignore in _archive/
+00-Start-Here/README.md,00-Start-Here/README.md,REWRITE,Comprehensive topic hub with concept links problem tables and pitfalls,2026-10-05
+00-Start-Here/problems/001-pointers-and-memory-basics.md,00-Start-Here/problems/001-pointers-and-memory-basics.md,CREATE,Tier A problem documentation for pointer fundamentals,2026-10-05
+00-Start-Here/problems/002-pass-by-value-vs-reference.md,00-Start-Here/problems/002-pass-by-value-vs-reference.md,CREATE,Tier A problem documentation for parameter passing,2026-10-05
+00-Start-Here/problems/003-array-decay-and-dynamic-allocation.md,00-Start-Here/problems/003-array-decay-and-dynamic-allocation.md,CREATE,Tier A problem documentation for array decay and vectors,2026-10-05
