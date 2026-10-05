@@ -18,3 +18,5 @@ new_path,base_source,contributed_from,what_was_added
 00-Start-Here/code/002-operators-demo/solution.cpp,DSA_final-main/01_Basics_Of_Cpp/operators.cpp,dsa-main/6_IncrementDecrement.cpp; dsa-main/7_prepostArithematic.cpp,C++ Operators and increment/decrement demonstrations
 00-Start-Here/code/003-functions-demo/solution.cpp,DSA_final-main/01_Basics_Of_Cpp/06_functions.cpp,None,Functions and parameter passing demonstrations
 00-Start-Here/code/004-basic-array-vector/solution.cpp,dsa-main/basic_array.cpp,dsa-main/vector_basic.cpp; dsa-main/user_input_vector.cpp; dsa-main/1_basic.cpp,Static and dynamic array/vector fundamentals
+01-complexity-analysis/concepts/01-asymptotic-analysis-and-big-o.md,DSA_ac-main/Array/03_DSA_Time_and_Space_Complexity_Notes.md,DSA_server-main/DSA-MasterCourse/01_Complexity_Analysis/01_notes.md,Consolidated mathematical asymptotic derivations and mastery notes
+01-complexity-analysis/concepts/02-complexity-analysis-mcqs.md,DSA_server-main/DSA-MasterCourse/01_Complexity_Analysis/01_mcqs.md,NA,Preserved complexity analysis self-check MCQs
