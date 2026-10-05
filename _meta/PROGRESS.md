@@ -27,8 +27,8 @@ Backup Tag: `pre-reconstruction` (commit 480394143b325dccc19355ac0b77e6f89437634
 |---|---|---|---|---|---|
 | `00-Start-Here` | **DONE** | 3 | 0 | 0 | **PASSED** (C++17, Python3, Java17) |
 | `01-Complexity-Analysis` | **DONE** | 2 | 0 | 0 | **PASSED** (C++17, Python3, Java17) |
-| `02-Math-for-DSA` | **IN_PROGRESS** | 6 | 4 | 2 | In progress |
-| `03-Arrays-and-Strings` | NOT_STARTED | 12 | 10 | 5 | Pending |
+| `02-Math-for-DSA` | **DONE** | 6 | 4 | 2 | **PASSED** (C++17, Python3, Java17) |
+| `03-Arrays-and-Strings` | **IN_PROGRESS** | 12 | 10 | 5 | In progress |
 | `04-Searching-and-Sorting` | NOT_STARTED | 10 | 8 | 4 | Pending |
 | `05-Two-Pointers-and-Sliding-Window` | NOT_STARTED | 8 | 6 | 4 | Pending |
 | `06-Hashing` | NOT_STARTED | 8 | 6 | 3 | Pending |

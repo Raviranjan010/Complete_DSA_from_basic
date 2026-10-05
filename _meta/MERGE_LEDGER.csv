@@ -164,3 +164,14 @@ _archive/dsa-main/.gitignore,dsa-main/.gitignore,NA,Archived sub-project gitigno
 01-Complexity-Analysis/README.md,01-Complexity-Analysis/README.md,REWRITE,Comprehensive topic hub with concept links problem tables and pitfalls,2026-10-05
 01-Complexity-Analysis/problems/001-time-complexity-benchmarking.md,01-Complexity-Analysis/problems/001-time-complexity-benchmarking.md,CREATE,Tier A problem documentation for time complexity benchmarking,2026-10-05
 01-Complexity-Analysis/problems/002-space-complexity-and-call-stack.md,01-Complexity-Analysis/problems/002-space-complexity-and-call-stack.md,CREATE,Tier A problem documentation for space complexity and call stack,2026-10-05
+02-Math-for-DSA/README.md,02-Math-for-DSA/README.md,REWRITE,Comprehensive topic hub with concept links problem tables and pitfalls,2026-10-05
+02-Math-for-DSA/concepts/01-gcd-and-euclidean-algorithm.md,02-Math-for-DSA/concepts/01-gcd-and-euclidean-algorithm.md,REWRITE,Expanded stub to complete standard guide,2026-10-05
+02-Math-for-DSA/concepts/03-armstrong-and-digit-math.md,02-Math-for-DSA/concepts/03-armstrong-and-digit-math.md,REWRITE,Expanded stub to complete standard guide,2026-10-05
+02-Math-for-DSA/concepts/04-sieve-of-eratosthenes-and-primes.md,02-Math-for-DSA/concepts/04-sieve-of-eratosthenes-and-primes.md,CREATE,Filled curriculum gap for Sieve and Prime Factorization,2026-10-05
+02-Math-for-DSA/concepts/05-modular-arithmetic-and-inverse.md,02-Math-for-DSA/concepts/05-modular-arithmetic-and-inverse.md,CREATE,Filled curriculum gap for Modular Arithmetic and Inverses,2026-10-05
+02-Math-for-DSA/problems/001-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 1,2026-10-05
+02-Math-for-DSA/problems/002-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 2,2026-10-05
+02-Math-for-DSA/problems/003-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 3,2026-10-05
+02-Math-for-DSA/problems/004-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 4,2026-10-05
+02-Math-for-DSA/problems/005-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 5,2026-10-05
+02-Math-for-DSA/problems/006-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 6,2026-10-05
