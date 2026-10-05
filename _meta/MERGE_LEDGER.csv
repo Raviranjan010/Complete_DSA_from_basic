@@ -94,3 +94,6 @@ new_path,base_source,contributed_from,what_was_added
 10-Trees/concepts/02-binary-search-tree-properties-and-ops.md,DSA_server-main/DSA-MasterCourse/11_Binary_Search_Tree/11_notes.md,NA,"Preserved BST properties, search, insert, and delete operations"
 10-Trees/code/001-binary-tree-traversals/solution.cpp,NA,NA,Created binary tree traversals implementation
 10-Trees/code/002-bst-operations/solution.cpp,NA,NA,Created BST insertion and search implementation
+11-Heap-and-Priority-Queue/README.md,NA,NA,Created topic hub README for Heap and Priority Queue
+11-Heap-and-Priority-Queue/concepts/01-heaps-and-priority-queues-theory.md,DSA_server-main/DSA-MasterCourse/12_Heaps_and_Priority_Queue/12_notes.md,NA,"Preserved binary heap properties, array indexing, and priority queue complexity"
+11-Heap-and-Priority-Queue/code/001-min-heap-operations/solution.cpp,NA,NA,Created Min-Heap and priority queue implementation
