@@ -161,3 +161,6 @@ _archive/dsa-main/.gitignore,dsa-main/.gitignore,NA,Archived sub-project gitigno
 00-Start-Here/problems/001-pointers-and-memory-basics.md,00-Start-Here/problems/001-pointers-and-memory-basics.md,CREATE,Tier A problem documentation for pointer fundamentals,2026-10-05
 00-Start-Here/problems/002-pass-by-value-vs-reference.md,00-Start-Here/problems/002-pass-by-value-vs-reference.md,CREATE,Tier A problem documentation for parameter passing,2026-10-05
 00-Start-Here/problems/003-array-decay-and-dynamic-allocation.md,00-Start-Here/problems/003-array-decay-and-dynamic-allocation.md,CREATE,Tier A problem documentation for array decay and vectors,2026-10-05
+01-Complexity-Analysis/README.md,01-Complexity-Analysis/README.md,REWRITE,Comprehensive topic hub with concept links problem tables and pitfalls,2026-10-05
+01-Complexity-Analysis/problems/001-time-complexity-benchmarking.md,01-Complexity-Analysis/problems/001-time-complexity-benchmarking.md,CREATE,Tier A problem documentation for time complexity benchmarking,2026-10-05
+01-Complexity-Analysis/problems/002-space-complexity-and-call-stack.md,01-Complexity-Analysis/problems/002-space-complexity-and-call-stack.md,CREATE,Tier A problem documentation for space complexity and call stack,2026-10-05
