@@ -14,7 +14,7 @@
 ---
 
 ## 2. Problem Statement
-Given two positive integers $a$ and $b$, compute their Greatest Common Divisor ($\gcd$) and Lowest Common Multiple ($	ext{lcm}$) using Euclid's algorithm in $\mathcal{O}(\log(\min(a, b)))$ time and $\mathcal{O}(1)$ auxiliary space.
+Given two positive integers $a$ and $b$, compute their Greatest Common Divisor ($\gcd$) and Lowest Common Multiple ($\text{lcm}$) using Euclid's algorithm in $\mathcal{O}(\log(\min(a, b)))$ time and $\mathcal{O}(1)$ auxiliary space.
 
 ---
 
