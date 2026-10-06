@@ -169,9 +169,9 @@ _archive/dsa-main/.gitignore,dsa-main/.gitignore,NA,Archived sub-project gitigno
 02-Math-for-DSA/concepts/03-armstrong-and-digit-math.md,02-Math-for-DSA/concepts/03-armstrong-and-digit-math.md,REWRITE,Expanded stub to complete standard guide,2026-10-05
 02-Math-for-DSA/concepts/04-sieve-of-eratosthenes-and-primes.md,02-Math-for-DSA/concepts/04-sieve-of-eratosthenes-and-primes.md,CREATE,Filled curriculum gap for Sieve and Prime Factorization,2026-10-05
 02-Math-for-DSA/concepts/05-modular-arithmetic-and-inverse.md,02-Math-for-DSA/concepts/05-modular-arithmetic-and-inverse.md,CREATE,Filled curriculum gap for Modular Arithmetic and Inverses,2026-10-05
-02-Math-for-DSA/problems/001-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 1,2026-10-05
-02-Math-for-DSA/problems/002-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 2,2026-10-05
-02-Math-for-DSA/problems/003-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 3,2026-10-05
-02-Math-for-DSA/problems/004-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 4,2026-10-05
-02-Math-for-DSA/problems/005-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 5,2026-10-05
-02-Math-for-DSA/problems/006-problem.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation 6,2026-10-05
+02-Math-for-DSA/problems/001-gcd-and-lcm-euclidean.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation: Euclidean GCD/LCM,2026-10-05
+02-Math-for-DSA/problems/002-fast-binary-exponentiation.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation: Fast Binary Exponentiation,2026-10-05
+02-Math-for-DSA/problems/003-sieve-of-eratosthenes.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation: Sieve of Eratosthenes,2026-10-05
+02-Math-for-DSA/problems/004-prime-factorization-spf.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation: Prime Factorization & SPF,2026-10-05
+02-Math-for-DSA/problems/005-modular-arithmetic-and-inverse.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation: Modular Arithmetic & Inverse,2026-10-05
+02-Math-for-DSA/problems/006-armstrong-and-palindrome-number.md,02-Math-for-DSA/problems/,CREATE,Tier A problem documentation: Armstrong & Palindrome Number,2026-10-05

@@ -112,58 +112,108 @@ int main() {
 }
 ```
 
-### Python 3 Implementation (Object Identity & Reference Model)
+### Python 3 Implementation (Object Identity, Reference Model & Garbage Collection)
+> **Idiomatic Principle:** Python does **not** have raw pointers, address-of operators (`&`), or pointer arithmetic. Variables in Python are symbolic names bound to objects in heap memory. Python manages memory via reference counting and cyclic garbage collection.
+
 ```python
-def demonstrate_reference_basics():
-    # Python uses reference semantics and object IDs (memory-like address equivalent)
-    target = [10]  # Mutable container to demonstrate indirect modification
-    ref = target
+import sys
+import gc
 
-    print(f"Initial scalar value: {ref[0]}")
-    print(f"Memory id of container: {hex(id(target))}")
+class Entity:
+    """Demonstrating reference binding and attribute mutation."""
+    def __init__(self, value: int):
+        self.value = value
 
-    # Indirect modification
-    ref[0] = 42
-    print(f"Modified scalar value via reference: {target[0]}")
+def demonstrate_object_identity():
+    # 1. Variable names as object bindings
+    val1 = 1000
+    val2 = val1
+    assert val1 is val2
+    assert id(val1) == id(val2)
 
-    # Simulating array memory traversal
-    arr = [10, 20, 30]
-    print("\nTraversing list via index and object identity:")
-    for i, val in enumerate(arr):
-        print(f"Index {i}: Object ID = {hex(id(val))} | Value = {val}")
+    # 2. Immutability: Rebinding creates a new integer object; does not mutate in-place
+    val2 += 1
+    assert val1 == 1000 and val2 == 1001
+    assert val1 is not val2
+
+    # 3. Mutable Objects: Multiple references share the same heap object
+    entity1 = Entity(10)
+    entity2 = entity1  # Aliased reference
+    assert entity1 is entity2
+    assert id(entity1) == id(entity2)
+
+    entity2.value = 42
+    assert entity1.value == 42  # Mutation visible through entity1
+
+    # 4. Traversal: Lists store references to objects, not raw contiguous structs
+    items = [Entity(10), Entity(20), Entity(30)]
+    for i, item in enumerate(items):
+        assert item.value == (i + 1) * 10
+        assert isinstance(id(item), int)
+
+    # 5. Reference Counting and Automatic Garbage Collection
+    initial_refs = sys.getrefcount(entity1)
+    alias = entity1
+    assert sys.getrefcount(entity1) == initial_refs + 1
+    del alias
+    assert sys.getrefcount(entity1) == initial_refs
+
+    print("[Python] Object identity, reference semantics, and GC verified successfully.")
 
 if __name__ == "__main__":
-    demonstrate_reference_basics()
+    demonstrate_object_identity()
 ```
 
-### Java 17 Implementation (Reference Mechanics)
+### Java 17 Implementation (Reference Handles, Heap Objects & JVM Garbage Collection)
+> **Idiomatic Principle:** Java forbids raw memory addresses, pointer dereferencing, and pointer arithmetic. Primitives reside directly on the execution stack, while all objects reside on the JVM managed heap. References are type-safe, opaque 32/64-bit handles.
+
 ```java
 public class Solution {
-    static class Box {
+    static class Node {
         int value;
-        Box(int value) { this.value = value; }
-    }
-
-    public static void demonstrateReferenceBasics() {
-        Box box = new Box(10);
-        Box ref = box;
-
-        System.out.println("Initial scalar value: " + ref.value);
-        System.out.println("Identity hash code: " + Integer.toHexString(System.identityHashCode(box)));
-
-        // Indirect mutation through reference
-        ref.value = 42;
-        System.out.println("Modified scalar value via reference: " + box.value);
-
-        int[] arr = {10, 20, 30};
-        System.out.println("\nTraversing array elements:");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println("Index " + i + ": Value = " + arr[i]);
+        Node(int value) {
+            this.value = value;
         }
     }
 
+    public static void demonstrateReferenceModel() {
+        // 1. Primitive types: Independent stack variables
+        int a = 10;
+        int b = a;
+        b = 42;
+        assert a == 10 && b == 42 : "Primitives do not share state";
+
+        // 2. Reference types: Handles pointing to the same heap instance
+        Node n1 = new Node(10);
+        Node n2 = n1; // Reference handle copy
+        assert n1 == n2 : "n1 and n2 reference identical heap object";
+        assert System.identityHashCode(n1) == System.identityHashCode(n2);
+
+        // 3. Mutation through reference
+        n2.value = 42;
+        assert n1.value == 42 : "Mutation via n2 visible through n1";
+
+        // 4. Reference rebinding: Does NOT affect the original heap object
+        n2 = new Node(99);
+        assert n1.value == 42 : "n1 retains original object";
+        assert n1 != n2;
+
+        // 5. Array of references: Java arrays of objects store reference handles
+        Node[] nodes = new Node[]{ new Node(10), new Node(20), new Node(30) };
+        assert nodes.length == 3;
+        for (int i = 0; i < nodes.length; i++) {
+            assert nodes[i].value == (i + 1) * 10;
+        }
+
+        // 6. Automatic Garbage Collection: Nulling drops reference, making object GC-eligible
+        n2 = null;
+        assert n2 == null;
+
+        System.out.println("[Java] Object references, identity, and GC semantics verified successfully.");
+    }
+
     public static void main(String[] args) {
-        demonstrateReferenceBasics();
+        demonstrateReferenceModel();
     }
 }
 ```

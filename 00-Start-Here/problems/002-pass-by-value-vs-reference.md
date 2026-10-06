@@ -118,66 +118,115 @@ int main() {
 }
 ```
 
-### Python 3 Implementation (Call-by-Object-Reference)
-```python
-def swap_by_value(x: int, y: int):
-    # Integers in Python are immutable; rebinding x and y has no outer effect
-    temp = x
-    x = y
-    y = temp
+### Python 3 Implementation (Call-by-Object-Reference Mechanics)
+> **Idiomatic Principle:** Python evaluation is strictly **Call-by-Object-Reference** (call-by-sharing). Reassigning an immutable parameter (`int`, `str`) rebinds the local name without altering the caller's variable. Idiomatic swapping uses tuple assignment (`a, b = b, a`). Mutating a mutable collection in-place alters the shared object directly.
 
-def swap_in_container(container: list, i: int, j: int):
-    # In-place swap by mutating the shared container reference
-    container[i], container[j] = container[j], container[i]
+```python
+def attempt_swap_immutable(x: int, y: int):
+    """Rebinding local parameters has NO effect on the caller."""
+    x, y = y, x
+
+def swap_in_mutable_sequence(seq: list, i: int, j: int):
+    """In-place mutation affects the shared heap object."""
+    seq[i], seq[j] = seq[j], seq[i]
+
+def reassign_container(seq: list):
+    """Rebinding the parameter does NOT rebind the caller's reference."""
+    seq = [999, 888]
+
+def inspect_large_structure_zero_copy(data: tuple) -> int:
+    """Passing large structures is O(1) zero-copy reference passing."""
+    return len(data)
 
 def main():
     a = 15
     b = 99
-    print(f"Before swap: a = {a}, b = {b}")
 
-    swap_by_value(a, b)
-    print(f"After swap_by_value: a = {a}, b = {b} (no change)")
+    # 1. Immutable types cannot be swapped via a mutating helper
+    attempt_swap_immutable(a, b)
+    assert a == 15 and b == 99
 
-    # Swapping values in Python idiomatically
+    # 2. Idiomatic Python swap via tuple packing/unpacking
     a, b = b, a
-    print(f"After idiomatic swap: a = {a}, b = {b} (swapped)")
+    assert a == 99 and b == 15
 
+    # 3. Mutable sequence in-place mutation
     arr = [15, 99]
-    swap_in_container(arr, 0, 1)
-    print(f"After container in-place swap: arr = {arr}")
+    swap_in_mutable_sequence(arr, 0, 1)
+    assert arr == [99, 15]
+
+    # 4. Parameter rebinding does not mutate caller's list
+    reassign_container(arr)
+    assert arr == [99, 15]
+
+    # 5. Zero-copy large container passing
+    large_tuple = tuple(range(100000))
+    count = inspect_large_structure_zero_copy(large_tuple)
+    assert count == 100000
+
+    print("[Python] Call-by-object-reference mechanics verified successfully.")
 
 if __name__ == "__main__":
     main()
 ```
 
-### Java 17 Implementation (Pass-by-Value-of-Reference)
+### Java 17 Implementation (Strict Pass-by-Value Mechanics)
+> **Idiomatic Principle:** Java is strictly **Pass-by-Value**. For primitives, the value itself is copied. For objects and arrays, the reference handle is copied into the stack frame. Reassigning a reference parameter does not alter the caller's reference, but mutating fields/elements through the handle modifies the shared heap instance.
+
 ```java
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
+
 public class Solution {
-    // Java is strictly pass-by-value. For primitives, values are copied.
+    // Attempting to swap primitives: Fails because values are copied
     public static void swapPrimitives(int x, int y) {
         int temp = x;
         x = y;
         y = temp;
     }
 
-    // For objects/arrays, the reference handle is passed by value
-    public static void swapArrayElements(int[] arr, int i, int j) {
+    // In-place mutation through copied reference handle
+    public static void swapElements(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
+    // Rebinding the reference parameter does NOT affect caller's reference
+    public static void reassignReference(int[] arr) {
+        arr = new int[]{999, 888};
+    }
+
+    public static int processReadOnly(List<Integer> list) {
+        // Zero-copy reference pass in O(1) time
+        return list.size();
+    }
+
     public static void main(String[] args) {
         int a = 15;
         int b = 99;
-        System.out.println("Before swap: a = " + a + ", b = " + b);
 
+        // 1. Primitives are passed by value (copied)
         swapPrimitives(a, b);
-        System.out.println("After swapPrimitives: a = " + a + ", b = " + b + " (no change)");
+        assert a == 15 && b == 99 : "Caller primitives must remain unchanged";
 
+        // 2. Objects/Arrays: Reference is passed by value; object state is mutated
         int[] arr = {15, 99};
-        swapArrayElements(arr, 0, 1);
-        System.out.println("After swapArrayElements: a = " + arr[0] + ", b = " + arr[1] + " (swapped)");
+        swapElements(arr, 0, 1);
+        assert arr[0] == 99 && arr[1] == 15 : "Array elements must be swapped in-place";
+
+        // 3. Rebinding reference does not affect caller
+        reassignReference(arr);
+        assert arr[0] == 99 && arr[1] == 15 : "Caller reference must not be rebound";
+
+        // 4. Large collections: O(1) reference pass without copying
+        List<Integer> largeList = new ArrayList<>();
+        for (int i = 0; i < 10000; i++) largeList.add(i);
+        List<Integer> unmodifiable = Collections.unmodifiableList(largeList);
+        assert processReadOnly(unmodifiable) == 10000;
+
+        System.out.println("[Java] Strict pass-by-value mechanics verified successfully.");
     }
 }
 ```

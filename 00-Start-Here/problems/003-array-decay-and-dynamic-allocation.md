@@ -98,34 +98,79 @@ int main() {
 }
 ```
 
-### Python 3 Implementation (List Internals & Sizing)
+### Python 3 Implementation (Dynamic Lists & Absence of Array Decay)
+> **Idiomatic Principle:** Python lists are dynamic array objects allocated on the heap. They **never decay** into raw pointers; `len(lst)` is an $\mathcal{O}(1)$ query into the list's `ob_size` header that remains permanently accessible across all scopes.
+
 ```python
 import sys
 
-def main():
-    # Python lists are dynamic arrays of object references on the heap
+def inspect_list(elements: list) -> int:
+    # Length metadata is preserved across all function boundaries
+    return len(elements)
+
+def demonstrate_dynamic_list():
     elements = [10, 20, 30, 40, 50]
     
-    print(f"List length: {len(elements)}")
-    print(f"Base container memory overhead: {sys.getsizeof(elements)} bytes")
-    print(f"Elements retain length metadata when passed to functions: len = {len(elements)}")
+    # 1. No array decay: length is preserved
+    assert len(elements) == 5
+    assert inspect_list(elements) == 5
+
+    # 2. Container memory overhead (PyListObject header + pointer array)
+    base_size = sys.getsizeof(elements)
+    assert base_size > 0
+
+    # 3. Dynamic resizing via geometric over-allocation
+    dynamic_list = []
+    sizes = []
+    for i in range(20):
+        dynamic_list.append(i)
+        sizes.append(sys.getsizeof(dynamic_list))
+    
+    # Over-allocation causes jump steps rather than reallocating every append
+    assert len(set(sizes)) > 1
+
+    print("[Python] Dynamic array internals and lack of array decay verified successfully.")
 
 if __name__ == "__main__":
-    main()
+    demonstrate_dynamic_list()
 ```
 
-### Java 17 Implementation (Array Objects)
+### Java 17 Implementation (First-Class Array Objects & ArrayList)
+> **Idiomatic Principle:** In Java, arrays are true first-class objects residing on the garbage-collected heap. They have an immutable `.length` property and never decay to raw pointers. Dynamic growth is handled cleanly via `ArrayList<E>`, backed by automatic JVM garbage collection.
+
 ```java
+import java.util.ArrayList;
+
 public class Solution {
-    // Java arrays are true heap objects with an immutable .length property
-    public static void printArrayLength(int[] arr) {
-        System.out.println("Inside method: array length is preserved = " + arr.length);
+    // Array length is permanently attached to the heap object
+    public static int getLength(int[] arr) {
+        return arr.length;
+    }
+
+    public static void demonstrateJavaArrays() {
+        int[] fixedArr = new int[]{10, 20, 30, 40, 50};
+
+        // 1. No array decay: Length is fully preserved
+        assert fixedArr.length == 5;
+        assert getLength(fixedArr) == 5 : "Array length must be preserved across method calls";
+
+        // 2. Dynamic growth via ArrayList (managed heap array resizing)
+        ArrayList<Integer> dynamicList = new ArrayList<>();
+        for (int i = 0; i < 50; i++) {
+            dynamicList.add(i);
+        }
+        assert dynamicList.size() == 50;
+        assert dynamicList.get(49) == 49;
+
+        // 3. JVM GC handles deallocation automatically when references go out of scope
+        fixedArr = null;
+        assert fixedArr == null;
+
+        System.out.println("[Java] Array objects and dynamic collections verified successfully.");
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{10, 20, 30, 40, 50};
-        System.out.println("In main: array length = " + arr.length);
-        printArrayLength(arr);
+        demonstrateJavaArrays();
     }
 }
 ```
