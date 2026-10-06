@@ -1,0 +1,106 @@
+canonical_title,topic_folder,pattern,level,lists,status,registry_id
+0/1 Knapsack Problem (Tabulation & Space Optimization),14-Dynamic-Programming,#01-knapsack,L2 Medium,L6,MISSING,P-0001
+Activity Selection / Interval Scheduling,12-Greedy-and-Intervals,#greedy-intervals,L2 Medium,L6,MISSING,P-0002
+Armstrong and Palindrome Number,02-Math-for-DSA,#digit-math,L1 Basic,L7,EXISTS (NEEDS-REWRITE),P-0003
+Array Decay and Dynamic Memory Allocation,00-Start-Here,#memory-model,L0 Foundational,L7,EXISTS (NEEDS-REWRITE),P-0004
+Bellman-Ford Shortest Path Algorithm,13-Graphs,#bellman-ford,L3 Advanced,L6,MISSING,P-0005
+Binary Search 2D Matrix,04-Searching-and-Sorting,#matrix-binary-search,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0006
+Binary Search Basic,04-Searching-and-Sorting,#binary-search,L1 Basic,L7,EXISTS (NEEDS-REWRITE),P-0007
+"Binary Search Tree Search, Insert & Delete",10-Trees,#bst-operations,L2 Medium,L6,MISSING,P-0008
+Binary Search on Answer Hard,04-Searching-and-Sorting,#bs-on-answer,L3 Advanced,L7,EXISTS (NEEDS-REWRITE),P-0009
+"Binary Tree Traversals (Inorder, Preorder, Postorder)",10-Trees,#tree-traversal,L1 Basic,L6,MISSING,P-0010
+"Bit Manipulation: Check, Set, Clear, Toggle, Lowest Set Bit",15-Bit-Manipulation,#bit-tricks,L1 Basic,L6,MISSING,P-0011
+Breadth First Search (BFS) in Graph,13-Graphs,#bfs-graph,L2 Medium,L6,MISSING,P-0012
+"Bubble Sort, Selection Sort & Insertion Sort",04-Searching-and-Sorting,#sorting-elementary,L1 Basic,L6,MISSING,P-0013
+CSES: Apartments,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0014
+CSES: Apple Division,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0015
+CSES: Bit Strings,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0016
+CSES: Chessboard and Queens,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0017
+CSES: Coin Piles,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0018
+CSES: Collecting Numbers,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0019
+CSES: Collecting Numbers II,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0020
+CSES: Concert Tickets,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0021
+CSES: Creating Strings,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0022
+CSES: Digit Queries,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0023
+CSES: Distinct Numbers,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0024
+CSES: Distinct Values Subarrays,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0025
+CSES: Distinct Values Subsequences,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0026
+CSES: Factory Machines,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0027
+CSES: Ferris Wheel,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0028
+CSES: Gray Code,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0029
+CSES: Grid Coloring I,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0030
+CSES: Grid Path Description,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0031
+CSES: Increasing Array,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0032
+CSES: Josephus Problem I,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0033
+CSES: Josephus Problem II,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0034
+CSES: Knight Moves Grid,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0035
+CSES: Maximum Subarray Sum,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0036
+CSES: Mex Grid Construction,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0037
+CSES: Missing Coin Sum,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0038
+CSES: Missing Number,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0039
+CSES: Movie Festival,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0040
+CSES: Nested Ranges Check,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0041
+CSES: Nested Ranges Count,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0042
+CSES: Number Spiral,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0043
+CSES: Palindrome Reorder,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0044
+CSES: Permutations,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0045
+CSES: Playlist,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0046
+CSES: Raab Game I,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0047
+CSES: Repetitions,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0048
+CSES: Restaurant Customers,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0049
+CSES: Room Allocation,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0050
+CSES: Stick Lengths,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0051
+CSES: String Reorder,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0052
+CSES: Sum of Two Values,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0053
+CSES: Tower of Hanoi,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0054
+CSES: Towers,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0055
+CSES: Traffic Lights,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0056
+CSES: Trailing Zeros,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0057
+CSES: Two Knights,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0058
+CSES: Two Sets,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0059
+CSES: Weird Algorithm,18-Advanced-Algorithms,#cses,L3 Advanced,L5,MISSING,P-0060
+Counting Sort & Radix Sort,04-Searching-and-Sorting,#non-comparison-sort,L2 Medium,L6,MISSING,P-0061
+Depth First Search (DFS) in Graph,13-Graphs,#dfs-graph,L2 Medium,L6,MISSING,P-0062
+Dijkstra Shortest Path Algorithm,13-Graphs,#dijkstra,L3 Advanced,L6,MISSING,P-0063
+Disjoint Set Union (DSU with Union by Rank & Path Compression),17-Advanced-Data-Structures,#dsu,L3 Advanced,L6,MISSING,P-0064
+Fast Binary Exponentiation,02-Math-for-DSA,#binary-exponentiation,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0065
+Floyd-Warshall All-Pairs Shortest Path,13-Graphs,#floyd-warshall,L3 Advanced,L6,MISSING,P-0066
+Fractional Knapsack Problem,12-Greedy-and-Intervals,#fractional-knapsack,L2 Medium,L6,MISSING,P-0067
+GCD and LCM Euclidean,02-Math-for-DSA,#math,L1 Basic,L7,EXISTS (NEEDS-REWRITE),P-0068
+Graph Representation (Adjacency Matrix & List),13-Graphs,#graph-basics,L1 Basic,L6,MISSING,P-0069
+Heap Sort,04-Searching-and-Sorting,#heapsort,L2 Medium,L6,MISSING,P-0070
+Kruskal Minimum Spanning Tree,13-Graphs,#mst-kruskal,L3 Advanced,L6,MISSING,P-0071
+Level Order Traversal (BFS),10-Trees,#bfs-tree,L2 Medium,L6,MISSING,P-0072
+Linked List Cycle Detection (Floyd Cycle),08-Linked-List,#fast-slow-pointers,L1 Basic,L6,MISSING,P-0073
+Longest Common Subsequence (LCS),14-Dynamic-Programming,#lcs,L2 Medium,L6,MISSING,P-0074
+Longest Increasing Subsequence (LIS O(N log N)),14-Dynamic-Programming,#lis-patience-sort,L3 Advanced,L6,MISSING,P-0075
+Lowest Common Ancestor in Binary Tree,10-Trees,#lca,L2 Medium,L6,MISSING,P-0076
+Majority Element (Boyer-Moore),03-Arrays-and-Strings,#boyer-moore,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0077
+Matrix Chain Multiplication (Interval DP),14-Dynamic-Programming,#interval-dp,L3 Advanced,L6,MISSING,P-0078
+Maximum Subarray (Kadane),03-Arrays-and-Strings,#kadane,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0079
+Merge Sort & Inversion Count,04-Searching-and-Sorting,#divide-and-conquer,L2 Medium,L6,MISSING,P-0080
+Merge Two Sorted Linked Lists,08-Linked-List,#merge-linked-lists,L1 Basic,L6,MISSING,P-0081
+Min Heap & Max Heapify Operations,11-Heap-and-Priority-Queue,#heapify,L2 Medium,L6,MISSING,P-0082
+Min Stack Design O(1),09-Stack-and-Queue,#min-stack,L2 Medium,L6,MISSING,P-0083
+Modular Arithmetic and Modular Inverse,02-Math-for-DSA,#modular-arithmetic,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0084
+Pass by Value vs Pass by Reference,00-Start-Here,#functions,L0 Foundational,L7,EXISTS (NEEDS-REWRITE),P-0085
+Pointer Fundamentals and Memory Addresses,00-Start-Here,#pointers,L0 Foundational,L7,EXISTS (NEEDS-REWRITE),P-0086
+Prefix Sum Problems,05-Two-Pointers-and-Sliding-Window,#prefix-sum,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0087
+Prim Minimum Spanning Tree,13-Graphs,#mst-prim,L3 Advanced,L6,MISSING,P-0088
+Prime Factorization SPF,02-Math-for-DSA,#spf,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0089
+Product of Array Except Self,03-Arrays-and-Strings,#prefix-suffix,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0090
+Queue Implementation via Circular Array,09-Stack-and-Queue,#queue-design,L1 Basic,L6,MISSING,P-0091
+Quick Sort & Quickselect,04-Searching-and-Sorting,#partitioning,L2 Medium,L6,MISSING,P-0092
+Reverse Linked List (Iterative & Recursive),08-Linked-List,#linked-list-reversal,L1 Basic,L6,MISSING,P-0093
+Search in Rotated Sorted Array,04-Searching-and-Sorting,#binary-search-rotated,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0094
+Sieve of Eratosthenes,02-Math-for-DSA,#sieve,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0095
+Singly Linked List Insertion & Deletion,08-Linked-List,#linked-list-ops,L1 Basic,L6,MISSING,P-0096
+Sliding Window Problems,05-Two-Pointers-and-Sliding-Window,#sliding-window,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0097
+Space Complexity and Call Stack,01-Complexity-Analysis,#space-complexity,L1 Basic,L7,EXISTS (NEEDS-REWRITE),P-0098
+Stack Implementation via Array & Linked List,09-Stack-and-Queue,#stack-design,L1 Basic,L6,MISSING,P-0099
+Time Complexity Benchmarking,01-Complexity-Analysis,#complexity-analysis,L1 Basic,L7,EXISTS (NEEDS-REWRITE),P-0100
+Top K Frequent Elements,11-Heap-and-Priority-Queue,#top-k,L2 Medium,L6,MISSING,P-0101
+Topological Sort (Kahn Algorithm & DFS),13-Graphs,#topological-sort,L2 Medium,L6,MISSING,P-0102
+Two Pointers Easy Medium Hard,05-Two-Pointers-and-Sliding-Window,#two-pointers,L2 Medium,L7,EXISTS (NEEDS-REWRITE),P-0103
+Two Pointers Foundations,05-Two-Pointers-and-Sliding-Window,#two-pointers,L1 Basic,L7,EXISTS (NEEDS-REWRITE),P-0104
+Two Sum (Pair Sum Problem),03-Arrays-and-Strings,#hash-map,L1 Basic,L7,EXISTS (NEEDS-REWRITE),P-0105

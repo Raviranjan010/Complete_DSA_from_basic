@@ -65,3 +65,40 @@ This file records all significant design decisions, tradeoffs, toolchain finding
   3. `_meta/MERGE_LEDGER.csv` logs base source and additions.
   4. Changes are committed to git.
   5. Every 3 topics, rules from Section 2 are audited and sampled.
+
+### D12: Branch & Tag Reconciliation (D11 Resolution)
+
+#### Raw Git Outputs:
+
+\\	ext
+$ git branch -a
+  dsa-reconstruction
+* main
+  merge-and-organize
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/merge-and-organize
+
+$ git tag
+before-merge
+pre-reconstruction
+
+$ git log --oneline -n 15
+d5dc223 feat: add link validation report for repository documentation
+1bce236 feat: add time complexity benchmarking implementations and link validation utilities
+1076249 feat: add time complexity benchmarking solutions in C++, Java, and Python with flake testing tool
+1d048db feat: add initial start-here problems, solutions, and progress tracking tools
+dcffb9a fix(02-Math-for-DSA): fix LaTeX formula escaping in 001 problem doc
+af7331a feat(02-Math-for-DSA): upgrade topic hub README, complete 6 Tier A flagship problems with C++17, Python3, and Java17 solutions, and fill curriculum gaps (Sieve, SPF, Modular Inverse)
+058cb99 feat(01-Complexity-Analysis): upgrade topic hub README and complete Tier A benchmark & space complexity suites with C++17, Python3, and Java17 solutions
+80392c1 feat(00-Start-Here): upgrade topic hub README and complete Tier A flagship problems with C++17, Python3, and Java17 solutions
+321c242 docs(progress): complete Phase 4 migration and initialize Phase 5 topic tracking
+1523fad test(tools): add parallel C++17 compilation checker script
+7426011 fix(links): normalize internal markdown links across all module concepts and problems
+47f3a2f feat: complete Phase 4 pure merge - migrate all 255 files, remove junk, archive raw leftovers
+8e8adf6 feat(15-Bit-Manipulation): migrate bitwise operations, bitmasking, and bit tricks code
+89badd0 feat(14-Dynamic-Programming): migrate 1D/2D DP patterns, advanced DP notes, and code
+f06e61a feat(13-Graphs): migrate graph representations, traversals, shortest paths, and code
+\
+#### Plain Reconciliation Statement:
+Earlier planning documents intermittently referenced branch \dsa-reconstruction\ and tag \pre-reconstruction\, whereas the agreed operational working branch was \merge-and-organize\ and backup tag was \efore-merge\. Both tags (\efore-merge\ and \pre-reconstruction\) point to the identical pre-reconstruction commit 80394143b325dccc19355ac0b77e6f89437634b\. All completed commits on \merge-and-organize\ have been fast-forward merged directly into \main\ and pushed to \origin/main\, so local \main\, local \merge-and-organize\, and remote \origin/main\ are now fully synchronized at HEAD.
