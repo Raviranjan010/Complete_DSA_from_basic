@@ -1,4 +1,4 @@
-[← Chapter 07](10-arrays-and-vectors-intro-ch07-50-why-does-the-array-change.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 09 →](10-arrays-and-vectors-intro-ch09-78-common-array-mistakes.md)
+[← Chapter 07](07-arrays-and-vectors-ch07-50-why-does-the-array-change.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 09 →](07-arrays-and-vectors-ch09-78-common-array-mistakes.md)
 
 ---
 

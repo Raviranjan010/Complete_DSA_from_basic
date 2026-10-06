@@ -1,4 +1,4 @@
-[← Chapter 03](10-arrays-and-vectors-intro-ch03-vector-vs-array-decision-guide.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 05 →](10-arrays-and-vectors-intro-ch05-21-binary-search-dry-run.md)
+[← Chapter 03](07-arrays-and-vectors-ch03-vector-vs-array-decision-guide.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 05 →](07-arrays-and-vectors-ch05-21-binary-search-dry-run.md)
 
 ---
 

@@ -1,4 +1,4 @@
-[← Chapter 09](10-arrays-and-vectors-intro-ch09-78-common-array-mistakes.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 11 →](10-arrays-and-vectors-intro-ch11-91-practice-questions-2d-array.md)
+[← Chapter 09](07-arrays-and-vectors-ch09-78-common-array-mistakes.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 11 →](07-arrays-and-vectors-ch11-91-practice-questions-2d-array.md)
 
 ---
 

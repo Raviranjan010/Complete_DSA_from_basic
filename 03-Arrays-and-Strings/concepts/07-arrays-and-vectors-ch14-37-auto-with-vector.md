@@ -1,4 +1,4 @@
-[← Chapter 13](10-arrays-and-vectors-intro-ch13-19-front.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 15 →](10-arrays-and-vectors-intro-ch15-52-kadane-dry-run.md)
+[← Chapter 13](07-arrays-and-vectors-ch13-19-front.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 15 →](07-arrays-and-vectors-ch15-52-kadane-dry-run.md)
 
 ---
 

@@ -1,4 +1,4 @@
-[← Chapter 11](10-arrays-and-vectors-intro-ch11-91-practice-questions-2d-array.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 13 →](10-arrays-and-vectors-intro-ch13-19-front.md)
+[← Chapter 11](07-arrays-and-vectors-ch11-91-practice-questions-2d-array.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 13 →](07-arrays-and-vectors-ch13-19-front.md)
 
 ---
 

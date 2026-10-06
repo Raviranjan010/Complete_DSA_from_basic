@@ -1,4 +1,4 @@
-[← Chapter 12](10-arrays-and-vectors-intro-ch12-3-vector-header-file.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 14 →](10-arrays-and-vectors-intro-ch14-37-auto-with-vector.md)
+[← Chapter 12](07-arrays-and-vectors-ch12-3-vector-header-file.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 14 →](07-arrays-and-vectors-ch14-37-auto-with-vector.md)
 
 ---
 

@@ -1,4 +1,4 @@
-[← Chapter 06](10-arrays-and-vectors-intro-ch06-36-swapping-maximum-and-minimu.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 08 →](10-arrays-and-vectors-intro-ch08-66-intersection-of-two-arrays.md)
+[← Chapter 06](07-arrays-and-vectors-ch06-36-swapping-maximum-and-minimu.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 08 →](07-arrays-and-vectors-ch08-66-intersection-of-two-arrays.md)
 
 ---
 

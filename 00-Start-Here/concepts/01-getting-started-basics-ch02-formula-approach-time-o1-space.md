@@ -219,35 +219,7 @@ When operating on different data types, C++ promotes the smaller type to the lar
 
 ---
 
-# 🔢 Number Systems & Decimal Logic
-
-Understanding number systems is foundational, especially when working with low-level concepts like memory and data representation. Computers fundamentally operate in binary.
-
-## 1️⃣ What is a Number System?
-A number system defines how numbers are represented using digits and a base (radix).
-
-| Number System | Base | Digits Used | Example |
-| :------------ | :--- | :---------- | :------ |
-| **Decimal**   | 10   | 0–9         | 12, 99, 105 |
-| **Binary**    | 2    | 0, 1        | 101, 1100 |
-| **Octal**     | 8    | 0–7         | 17, 24  |
-| **Hexadecimal** | 16   | 0–9, A–F    | 1A, F2, B5 |
-
-## 2️⃣ Decimal Number System (Base-10)
-The decimal system is the number system we use daily. It uses 10 unique digits (0–9). Each digit's position in a number represents a power of 10.
-
-### Example: Breakdown of `739`
-*   `7` is in the hundreds place: $7 \times 10^2 = 700$
-*   `3` is in the tens place: $3 \times 10^1 = 30$
-*   `9` is in the units place: $9 \times 10^0 = 9$
-*   **Total**: $700 + 30 + 9 = 739$
-
-### Why do computers use Binary?
-Computers are built from transistors, which act as tiny switches. These switches have only two stable states:
-*   **ON** (High Voltage) = **1**
-*   **OFF** (Low Voltage) = **0**
-This inherent two-state nature makes binary (base-2) the most natural and efficient number system for computers.
-
+> **Related Guide**: For an in-depth explanation of binary and decimal number systems, base conversions, and two's complement, see [Binary Number System](11-binary-number-system.md).
 
 ---
 

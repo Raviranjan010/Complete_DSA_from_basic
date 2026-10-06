@@ -1,4 +1,4 @@
-[← Chapter 16](10-arrays-and-vectors-intro-ch16-66-pair-sum-on-an-unsorted-arr.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 18 →](10-arrays-and-vectors-intro-ch18-91-pair-sum-pattern-recognitio.md)
+[← Chapter 16](07-arrays-and-vectors-ch16-66-pair-sum-on-an-unsorted-arr.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 18 →](07-arrays-and-vectors-ch18-91-pair-sum-pattern-recognitio.md)
 
 ---
 

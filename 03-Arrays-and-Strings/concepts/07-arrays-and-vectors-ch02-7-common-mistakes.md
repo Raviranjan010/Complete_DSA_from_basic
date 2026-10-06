@@ -1,4 +1,4 @@
-[← Chapter 01](10-arrays-and-vectors-intro-ch01-array-basics-complete-beginner.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 03 →](10-arrays-and-vectors-intro-ch03-vector-vs-array-decision-guide.md)
+[← Chapter 01](07-arrays-and-vectors-ch01-array-basics-complete-beginner.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 03 →](07-arrays-and-vectors-ch03-vector-vs-array-decision-guide.md)
 
 ---
 
@@ -170,7 +170,7 @@ Now that you understand array basics, continue learning:
 3. ✅ **Complexity Analysis** — Understanding performance
 4. ✅ **Vector vs Array** — When to use which
 
-**Next File**: [Memory Model](09-pointers-and-memory-model.md) →
+**Next File**: [Vector vs Array — Decision Guide](07-arrays-and-vectors-ch03-vector-vs-array-decision-guide.md) → (and see [Memory Model](../../00-Start-Here/concepts/09-pointers-and-memory-model.md))
 
 ---
 

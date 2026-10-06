@@ -1,4 +1,4 @@
-[← Chapter 05](10-arrays-and-vectors-intro-ch05-21-binary-search-dry-run.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 07 →](10-arrays-and-vectors-intro-ch07-50-why-does-the-array-change.md)
+[← Chapter 05](07-arrays-and-vectors-ch05-21-binary-search-dry-run.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 07 →](07-arrays-and-vectors-ch07-50-why-does-the-array-change.md)
 
 ---
 

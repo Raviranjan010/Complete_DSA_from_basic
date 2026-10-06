@@ -1,4 +1,4 @@
-[← Chapter 02](10-arrays-and-vectors-intro-ch02-7-common-mistakes.md) · [Chapter Index](10-arrays-and-vectors-intro.md) · [Module Overview](../README.md) · [Chapter 04 →](10-arrays-and-vectors-intro-ch04-4-array-indexing.md)
+[← Chapter 02](07-arrays-and-vectors-ch02-7-common-mistakes.md) · [Chapter Index](07-arrays-and-vectors-guide.md) · [Module Overview](../README.md) · [Chapter 04 →](07-arrays-and-vectors-ch04-4-array-indexing.md)
 
 ---
 
