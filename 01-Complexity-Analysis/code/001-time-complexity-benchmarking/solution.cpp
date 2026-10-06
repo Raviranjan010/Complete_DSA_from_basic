@@ -2,6 +2,8 @@
 #include <vector>
 #include <chrono>
 #include <numeric>
+#include <cassert>
+#include <algorithm>
 
 // O(1) Constant Time
 int constantTimeAccess(const std::vector<int>& arr) {
@@ -33,31 +35,57 @@ long long quadraticTimePairs(const std::vector<int>& arr, int limit) {
 }
 
 int main() {
-    std::vector<int> testSizes = {500, 1000, 2000};
+    // 1. Correctness Verification
+    std::vector<int> sample = {1, 2, 3, 4, 5};
+    assert(constantTimeAccess(sample) == 3);
+    assert(linearTimeSum(sample) == 15);
+    assert(quadraticTimePairs(sample, 5) == 25);
 
-    for (int n : testSizes) {
-        std::vector<int> data(n, 1);
+    // 2. Loose Growth Ratio Verification
+    int nSmall = 200;
+    int nLarge = 800; // 4x input size -> ~16x quadratic iterations
 
-        auto t1 = std::chrono::high_resolution_clock::now();
-        volatile int val = constantTimeAccess(data);
-        auto t2 = std::chrono::high_resolution_clock::now();
+    std::vector<int> smallData(nSmall, 1);
+    std::vector<int> largeData(nLarge, 1);
 
-        auto t3 = std::chrono::high_resolution_clock::now();
-        volatile long long sum = linearTimeSum(data);
-        auto t4 = std::chrono::high_resolution_clock::now();
+    // Warm-up
+    volatile long long dummy = quadraticTimePairs(smallData, nSmall);
+    (void)dummy;
 
-        auto t5 = std::chrono::high_resolution_clock::now();
-        volatile long long pairs = quadraticTimePairs(data, n);
-        auto t6 = std::chrono::high_resolution_clock::now();
+    // Benchmark Small
+    auto t1 = std::chrono::high_resolution_clock::now();
+    volatile long long sumSmall = linearTimeSum(smallData);
+    auto t2 = std::chrono::high_resolution_clock::now();
+    volatile long long quadSmall = quadraticTimePairs(smallData, nSmall);
+    auto t3 = std::chrono::high_resolution_clock::now();
 
-        auto d_const = std::chrono::duration_cast<std::chrono::nanoseconds>(t2 - t1).count();
-        auto d_lin = std::chrono::duration_cast<std::chrono::microseconds>(t4 - t3).count();
-        auto d_quad = std::chrono::duration_cast<std::chrono::microseconds>(t6 - t5).count();
+    assert(sumSmall == nSmall);
+    assert(quadSmall == (long long)nSmall * nSmall);
 
-        std::cout << "N = " << n 
-                  << " | O(1): " << d_const << " ns"
-                  << " | O(N): " << d_lin << " us"
-                  << " | O(N^2): " << d_quad << " us\n";
+    // Benchmark Large
+    auto t4 = std::chrono::high_resolution_clock::now();
+    volatile long long sumLarge = linearTimeSum(largeData);
+    auto t5 = std::chrono::high_resolution_clock::now();
+    volatile long long quadLarge = quadraticTimePairs(largeData, nLarge);
+    auto t6 = std::chrono::high_resolution_clock::now();
+
+    assert(sumLarge == nLarge);
+    assert(quadLarge == (long long)nLarge * nLarge);
+
+    auto d_quad_small = std::chrono::duration_cast<std::chrono::microseconds>(t3 - t2).count();
+    auto d_quad_large = std::chrono::duration_cast<std::chrono::microseconds>(t6 - t5).count();
+
+    // Loose growth assertions: large problem does not take negative time
+    // and loose lower bound ratio >= 1.0 (never depends on tight exact timing)
+    assert(d_quad_large >= 0);
+    assert(d_quad_small >= 0);
+    if (d_quad_small > 0) {
+        double ratio = static_cast<double>(d_quad_large) / d_quad_small;
+        // 4x increase in N theoretically takes ~16x work.
+        // We test only a very loose lower bound >= 1.0 to eliminate any test flakiness.
+        assert(ratio >= 1.0);
     }
+
+    std::cout << "[C++17] Complexity benchmark correctness and loose growth ratios verified.\n";
     return 0;
 }

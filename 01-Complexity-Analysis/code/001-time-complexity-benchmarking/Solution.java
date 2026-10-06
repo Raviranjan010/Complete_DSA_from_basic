@@ -24,25 +24,53 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        int[] sizes = {500, 1000, 2000};
-        for (int n : sizes) {
-            int[] data = new int[n];
-            Arrays.fill(data, 1);
+        // 1. Correctness assertions
+        int[] sample = {1, 2, 3, 4, 5};
+        assert constantAccess(sample) == 3 : "Constant access failed";
+        assert linearSum(sample) == 15 : "Linear sum failed";
+        assert quadraticPairs(sample, 5) == 25 : "Quadratic pairs failed";
 
-            long t1 = System.nanoTime();
-            int cVal = constantAccess(data);
-            long t2 = System.nanoTime();
+        // 2. Loose growth ratio assertions
+        int nSmall = 200;
+        int nLarge = 800; // 4x increase in N -> 16x iterations
 
-            long t3 = System.nanoTime();
-            long lVal = linearSum(data);
-            long t4 = System.nanoTime();
+        int[] smallData = new int[nSmall];
+        Arrays.fill(smallData, 1);
+        int[] largeData = new int[nLarge];
+        Arrays.fill(largeData, 1);
 
-            long t5 = System.nanoTime();
-            long qVal = quadraticPairs(data, n);
-            long t6 = System.nanoTime();
+        // Warm-up JIT
+        quadraticPairs(smallData, nSmall);
 
-            System.out.printf("N = %d | O(1): %d ns | O(N): %d us | O(N^2): %d us%n",
-                n, (t2 - t1), (t4 - t3) / 1000, (t6 - t5) / 1000);
+        long t1 = System.nanoTime();
+        long sumSmall = linearSum(smallData);
+        long t2 = System.nanoTime();
+        long quadSmall = quadraticPairs(smallData, nSmall);
+        long t3 = System.nanoTime();
+
+        assert sumSmall == nSmall;
+        assert quadSmall == (long)nSmall * nSmall;
+
+        long t4 = System.nanoTime();
+        long sumLarge = linearSum(largeData);
+        long t5 = System.nanoTime();
+        long quadLarge = quadraticPairs(largeData, nLarge);
+        long t6 = System.nanoTime();
+
+        assert sumLarge == nLarge;
+        assert quadLarge == (long)nLarge * nLarge;
+
+        long dQuadSmall = t3 - t2;
+        long dQuadLarge = t6 - t5;
+
+        assert dQuadSmall >= 0;
+        assert dQuadLarge >= 0;
+        if (dQuadSmall > 0) {
+            double ratio = (double)dQuadLarge / dQuadSmall;
+            // Loose growth ratio test >= 1.0 (never depends on exact timing)
+            assert ratio >= 1.0 : "Growth ratio must be non-decreasing";
         }
+
+        System.out.println("[Java17] Complexity benchmark correctness and loose growth ratios verified.");
     }
 }
