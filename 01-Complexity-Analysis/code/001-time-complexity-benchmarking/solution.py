@@ -25,7 +25,9 @@ def main():
     sample = [1, 2, 3, 4, 5]
     assert constant_access(sample) == 3
     assert linear_sum(sample) == 15
-    assert quadratic_pairs(sample, 5) == 25
+    assert quadratic_pairs(sample, 5) == 5
+    sample_eq = [1, 1, 1, 1, 1]
+    assert quadratic_pairs(sample_eq, 5) == 25
 
     # 2. Loose growth ratio assertions (never exact timing)
     n_small = 100

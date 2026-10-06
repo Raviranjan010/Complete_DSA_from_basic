@@ -28,7 +28,9 @@ public class Solution {
         int[] sample = {1, 2, 3, 4, 5};
         assert constantAccess(sample) == 3 : "Constant access failed";
         assert linearSum(sample) == 15 : "Linear sum failed";
-        assert quadraticPairs(sample, 5) == 25 : "Quadratic pairs failed";
+        assert quadraticPairs(sample, 5) == 5 : "Quadratic pairs failed";
+        int[] sampleEq = {1, 1, 1, 1, 1};
+        assert quadraticPairs(sampleEq, 5) == 25 : "Quadratic pairs equal failed";
 
         // 2. Loose growth ratio assertions
         int nSmall = 200;

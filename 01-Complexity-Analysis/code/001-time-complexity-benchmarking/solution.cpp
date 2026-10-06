@@ -39,7 +39,9 @@ int main() {
     std::vector<int> sample = {1, 2, 3, 4, 5};
     assert(constantTimeAccess(sample) == 3);
     assert(linearTimeSum(sample) == 15);
-    assert(quadraticTimePairs(sample, 5) == 25);
+    assert(quadraticTimePairs(sample, 5) == 5);
+    std::vector<int> sampleEq = {1, 1, 1, 1, 1};
+    assert(quadraticTimePairs(sampleEq, 5) == 25);
 
     // 2. Loose Growth Ratio Verification
     int nSmall = 200;
